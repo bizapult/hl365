@@ -1,0 +1,60 @@
+a:75:{s:17:"trx_addons_action";s:0:"";s:24:"trx_addons_admin_message";s:0:"";s:30:"trx_addons_cpt_layouts_created";s:1:"1";s:25:"trx_addons_just_activated";s:2:"no";s:18:"trx_addons_options";a:52:{s:10:"debug_mode";i:0;s:19:"move_styles_to_head";s:1:"1";s:22:"move_scripts_to_footer";i:0;s:19:"remove_ver_from_url";i:0;s:10:"ajax_views";i:0;s:12:"retina_ready";s:1:"1";s:14:"images_quality";s:2:"60";s:14:"page_preloader";s:4:"none";s:23:"page_preloader_bg_color";s:7:"#ffffff";s:20:"page_preloader_image";s:0:"";s:13:"scroll_to_top";s:1:"1";s:19:"animate_inner_links";i:0;s:12:"popup_engine";s:8:"magnific";s:10:"menu_cache";i:0;s:13:"menu_collapse";s:1:"1";s:18:"menu_collapse_icon";s:29:"trx_addons_icon-ellipsis-vert";s:21:"breadcrumbs_max_level";s:1:"3";s:14:"login_via_ajax";s:1:"1";s:17:"login_via_socials";s:0:"";s:29:"notify_about_new_registration";s:2:"no";s:20:"testimonials_disable";i:0;s:13:"sport_disable";i:0;s:14:"sport_favorite";s:0:"";s:18:"competitions_style";s:9:"default_3";s:16:"services_disable";i:0;s:14:"services_style";s:9:"default_2";s:25:"services_add_contact_form";s:1:"1";s:15:"api_google_load";s:1:"1";s:10:"api_google";s:0:"";s:17:"api_google_marker";s:0:"";s:18:"api_google_cluster";s:0:"";s:20:"api_google_analitics";s:0:"";s:22:"api_google_remarketing";s:0:"";s:13:"api_fb_app_id";s:0:"";s:7:"socials";a:3:{i:0;a:3:{s:5:"title";s:0:"";s:3:"url";s:33:"https://twitter.com/ancora_themes";s:4:"name";s:12:"icon-twitter";}i:1;a:3:{s:5:"title";s:0:"";s:3:"url";s:1:"#";s:4:"name";s:10:"icon-gplus";}i:2;a:3:{s:5:"title";s:0:"";s:3:"url";s:38:"https://www.facebook.com/AncoraThemes/";s:4:"name";s:13:"icon-facebook";}}s:5:"share";a:5:{i:0;a:3:{s:5:"title";s:0:"";s:3:"url";s:56:"https://twitter.com/intent/tweet?text={title}&url={link}";s:4:"name";s:23:"trx_addons_icon-twitter";}i:1;a:3:{s:5:"title";s:0:"";s:3:"url";s:50:"http://www.facebook.com/sharer/sharer.php?u={link}";s:4:"name";s:24:"trx_addons_icon-facebook";}i:2;a:3:{s:5:"title";s:7:"Google+";s:3:"url";s:40:"https://plus.google.com/share?url={link}";s:4:"name";s:21:"trx_addons_icon-gplus";}i:3;a:3:{s:5:"title";s:0:"";s:3:"url";s:60:"http://www.tumblr.com/share?v=3&u={link}&t={title}&s={descr}";s:4:"name";s:22:"trx_addons_icon-tumblr";}i:4;a:3:{s:5:"title";s:6:"E-mail";s:3:"url";s:52:"mailto:info@themerex.net?subject={title}&body={link}";s:4:"name";s:20:"trx_addons_icon-mail";}}s:11:"add_og_tags";s:1:"1";s:16:"emotions_allowed";i:0;s:8:"emotions";a:1:{i:0;a:2:{s:5:"title";s:0:"";s:4:"name";s:0:"";}}s:16:"scroll_to_anchor";s:1:"1";s:27:"update_location_from_anchor";i:0;s:11:"input_hover";s:7:"default";s:14:"layouts_create";s:0:"";s:18:"columns_wrap_class";s:0:"";s:24:"columns_wrap_class_fluid";s:0:"";s:12:"column_class";s:0:"";s:11:"demo_enable";i:0;s:12:"demo_referer";s:0:"";s:16:"demo_default_url";s:0:"";s:9:"demo_logo";s:0:"";s:14:"demo_post_type";s:0:"";s:13:"demo_taxonomy";s:0:"";}s:8:"blogname";s:8:"Parkivia";s:15:"blogdescription";s:27:"Just another WordPress site";s:9:"site_icon";s:2:"53";s:14:"posts_per_page";s:2:"10";s:13:"show_on_front";s:4:"page";s:13:"page_on_front";s:3:"326";s:14:"page_for_posts";s:3:"125";s:38:"booked_admin_appointment_email_content";s:249:"You have a new appointment request! Here's the appointment information:
+
+Customer: %name%
+Date: %date%
+Time: %time%
+
+Log into your website here: http://parkivia.ancorathemes.com/wp-admin/ to approve this appointment.
+
+(Sent via the Parkivia website)";s:38:"booked_admin_appointment_email_subject";s:35:"You have a new appointment request!";s:39:"booked_admin_cancellation_email_content";s:167:"One of your customers has cancelled their appointment. Here's the appointment information:
+
+Customer: %name%
+Date: %date%
+Time: %time%
+
+(Sent via the Parkivia website)";s:39:"booked_admin_cancellation_email_subject";s:34:"An appointment has been cancelled.";s:28:"booked_admin_reminder_buffer";s:2:"30";s:27:"booked_admin_reminder_email";s:203:"You have an appointment coming up soon! Here's the appointment information:
+
+<strong>Customer:</strong> %name%
+<strong>Date:</strong> %date%
+<strong>Time:</strong> %time%
+
+(Sent via the Parkivia website)";s:35:"booked_admin_reminder_email_subject";s:33:"An appointment is coming up soon!";s:25:"booked_appointment_buffer";s:1:"0";s:24:"booked_appointment_limit";s:1:"0";s:32:"booked_appointment_redirect_type";s:0:"";s:40:"booked_appointment_success_redirect_page";s:0:"";s:29:"booked_approval_email_content";s:174:"Hey %name%!
+
+The appointment you requested at Parkivia has been approved! Here's your appointment information:
+
+Date: %date%
+Time: %time%
+
+Sincerely,
+Your friends at Parkivia";s:29:"booked_approval_email_subject";s:35:"Your appointment has been approved!";s:38:"booked_appt_confirmation_email_content";s:178:"Hey %name%!
+
+This is just an email to confirm your appointment. For reference, here's the appointment information:
+
+Date: %date%
+Time: %time%
+
+Sincerely,
+Your friends at Parkivia";s:38:"booked_appt_confirmation_email_subject";s:44:"Your appointment confirmation from Parkivia.";s:19:"booked_booking_type";s:10:"registered";s:19:"booked_button_color";s:7:"#13c33e";s:26:"booked_cancellation_buffer";s:1:"0";s:33:"booked_cancellation_email_content";s:189:"Hey %name%!
+
+The appointment you requested at Parkivia has been cancelled. For reference, here's the appointment information:
+
+Date: %date%
+Time: %time%
+
+Sincerely,
+Your friends at Parkivia";s:33:"booked_cancellation_email_subject";s:36:"Your appointment has been cancelled.";s:27:"booked_custom_login_message";s:0:"";s:17:"booked_dark_color";s:7:"#015e8c";s:25:"booked_default_email_user";s:0:"";s:18:"booked_defaults_19";a:14:{s:3:"Mon";a:6:{s:9:"0700-0800";i:1;s:9:"0800-0900";i:1;s:9:"0900-1000";i:1;s:9:"1000-1100";i:1;s:9:"1100-1200";i:1;s:9:"1200-1300";i:1;}s:11:"Mon-details";a:6:{s:9:"0700-0800";a:1:{s:5:"title";s:0:"";}s:9:"0800-0900";a:1:{s:5:"title";s:0:"";}s:9:"0900-1000";a:1:{s:5:"title";s:0:"";}s:9:"1000-1100";a:1:{s:5:"title";s:0:"";}s:9:"1100-1200";a:1:{s:5:"title";s:0:"";}s:9:"1200-1300";a:1:{s:5:"title";s:0:"";}}s:3:"Tue";a:2:{s:9:"1430-1530";i:1;s:9:"1530-1630";i:1;}s:11:"Tue-details";a:2:{s:9:"1430-1530";a:1:{s:5:"title";s:0:"";}s:9:"1530-1630";a:1:{s:5:"title";s:0:"";}}s:3:"Wed";a:4:{s:9:"1000-1100";i:1;s:9:"1100-1200";i:1;s:9:"1200-1300";i:1;s:9:"1300-1400";i:1;}s:11:"Wed-details";a:4:{s:9:"1000-1100";a:1:{s:5:"title";s:0:"";}s:9:"1100-1200";a:1:{s:5:"title";s:0:"";}s:9:"1200-1300";a:1:{s:5:"title";s:0:"";}s:9:"1300-1400";a:1:{s:5:"title";s:0:"";}}s:3:"Thu";a:8:{s:9:"0830-0930";i:1;s:9:"0930-1030";i:1;s:9:"1030-1130";i:1;s:9:"1130-1230";i:1;s:9:"1230-1330";i:1;s:9:"1330-1430";i:1;s:9:"1430-1530";i:1;s:9:"1530-1630";i:1;}s:11:"Thu-details";a:8:{s:9:"0830-0930";a:1:{s:5:"title";s:0:"";}s:9:"0930-1030";a:1:{s:5:"title";s:0:"";}s:9:"1030-1130";a:1:{s:5:"title";s:0:"";}s:9:"1130-1230";a:1:{s:5:"title";s:0:"";}s:9:"1230-1330";a:1:{s:5:"title";s:0:"";}s:9:"1330-1430";a:1:{s:5:"title";s:0:"";}s:9:"1430-1530";a:1:{s:5:"title";s:0:"";}s:9:"1530-1630";a:1:{s:5:"title";s:0:"";}}s:3:"Fri";a:4:{s:9:"0700-0800";i:1;s:9:"0800-0900";i:1;s:9:"0900-1000";i:1;s:9:"1000-1100";i:1;}s:11:"Fri-details";a:4:{s:9:"0700-0800";a:1:{s:5:"title";s:0:"";}s:9:"0800-0900";a:1:{s:5:"title";s:0:"";}s:9:"0900-1000";a:1:{s:5:"title";s:0:"";}s:9:"1000-1100";a:1:{s:5:"title";s:0:"";}}s:3:"Sat";a:6:{s:9:"1430-1530";i:1;s:9:"1530-1630";i:1;s:9:"1630-1730";i:1;s:9:"1730-1830";i:1;s:9:"1830-1930";i:1;s:9:"1930-2030";i:1;}s:11:"Sat-details";a:6:{s:9:"1430-1530";a:1:{s:5:"title";s:0:"";}s:9:"1530-1630";a:1:{s:5:"title";s:0:"";}s:9:"1630-1730";a:1:{s:5:"title";s:0:"";}s:9:"1730-1830";a:1:{s:5:"title";s:0:"";}s:9:"1830-1930";a:1:{s:5:"title";s:0:"";}s:9:"1930-2030";a:1:{s:5:"title";s:0:"";}}s:3:"Sun";a:4:{s:9:"1530-1630";i:1;s:9:"1630-1730";i:1;s:9:"1730-1830";i:1;s:9:"1830-1930";i:1;}s:11:"Sun-details";a:4:{s:9:"1530-1630";a:1:{s:5:"title";s:0:"";}s:9:"1630-1730";a:1:{s:5:"title";s:0:"";}s:9:"1730-1830";a:1:{s:5:"title";s:0:"";}s:9:"1830-1930";a:1:{s:5:"title";s:0:"";}}}s:36:"booked_dont_allow_user_cancellations";s:0:"";s:25:"booked_email_force_sender";s:0:"";s:30:"booked_email_force_sender_from";s:17:"info@themerex.net";s:17:"booked_email_logo";s:0:"";s:23:"booked_emailer_disabled";s:0:"";s:26:"booked_hide_admin_bar_menu";s:0:"";s:31:"booked_hide_available_timeslots";s:0:"";s:28:"booked_hide_default_calendar";s:0:"";s:21:"booked_hide_end_times";s:0:"";s:23:"booked_hide_google_link";s:0:"";s:33:"booked_hide_unavailable_timeslots";s:0:"";s:20:"booked_hide_weekends";s:0:"";s:18:"booked_light_color";s:7:"#0073AA";s:26:"booked_login_redirect_page";s:0:"";s:30:"booked_new_appointment_default";s:5:"draft";s:33:"booked_prevent_appointments_after";s:0:"";s:34:"booked_prevent_appointments_before";s:0:"";s:26:"booked_public_appointments";s:0:"";s:26:"booked_redirect_non_admins";s:0:"";s:33:"booked_registration_email_content";s:221:"Hey %name%!
+
+Thanks for registering at Parkivia. You can now login to manage your account and appointments using the following credentials:
+
+Email Address: %email%
+Password: %password%
+
+Sincerely,
+Your friends at Parkivia";s:33:"booked_registration_email_subject";s:26:"Thank you for registering!";s:37:"booked_registration_name_requirements";a:1:{i:0;s:12:"require_name";}s:22:"booked_reminder_buffer";s:2:"30";s:21:"booked_reminder_email";s:241:"Just a friendly reminder that you have an appointment coming up soon! Here's the appointment information:
+
+<strong>Calendar:</strong> %calendar%
+<strong>Date:</strong> %date%
+<strong>Time:</strong> %time%
+
+Sincerely,
+Your friends at Parkivia";s:29:"booked_reminder_email_subject";s:49:"Reminder: You have an appointment coming up soon!";s:34:"booked_require_guest_email_address";s:0:"";s:23:"booked_show_only_titles";s:0:"";s:25:"booked_timeslot_intervals";s:1:"5";s:20:"booked_version_check";s:3:"2.1";s:29:"booki_custom_pages_registered";s:1:"1";s:16:"booki_db_version";s:3:"3.7";s:20:"booki_sh_used_nonces";a:1:{s:10:"15bdcfa996";i:1532622147;}s:22:"booki_use_php_sessions";s:1:"1";s:25:"widget_booki_basketwidget";a:1:{s:12:"_multiwidget";i:1;}s:31:"widget_booki_bookingslistwidget";a:1:{s:12:"_multiwidget";i:1;}s:5:"wpcf7";a:2:{s:7:"version";s:5:"5.0.4";s:13:"bulk_validate";a:4:{s:9:"timestamp";i:1513771895;s:7:"version";s:5:"4.9.2";s:11:"count_valid";i:1;s:13:"count_invalid";i:0;}}s:21:"mc4wp_default_form_id";s:3:"369";s:22:"mc4wp_form_stylesheets";a:0:{}s:20:"mc4wp_flash_messages";a:0:{}}

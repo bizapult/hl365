@@ -1,0 +1,25 @@
+<?php
+class Booki_EmailType{
+	const MASTER_TEMPLATE = 'Master Template';
+	const ORDER_CONFIRMATION = 'Order Confirmation';
+	const ORDER_CANCELLED = 'Order Cancelled';
+	const BOOKING_DAY_CONFIRMED = 'Booking Day Confirmed';
+	const BOOKING_DAY_CANCELLED = 'Booking Day Cancelled';
+	const BOOKING_DAY_REFUNDED = 'Booking Day Refunded';
+	const BOOKING_CANCEL_REQUEST = 'Booking Cancel Request';
+	const BOOKING_OPTIONAL_ITEM_CONFIRMED = 'Booking Optional Item Confirmed';
+	const BOOKING_OPTIONAL_ITEM_CANCELLED = 'Booking Optional Item Cancelled';
+	const BOOKING_OPTIONAL_ITEM_REFUNDED = 'Booking Optional Item Refunded';
+	const BOOKING_QUANTITY_ELEMENT_CONFIRMED = 'Booking Quantity Element Confirmed';
+	const BOOKING_QUANTITY_ELEMENT_CANCELLED = 'Booking Quantity Element Cancelled';
+	const BOOKING_QUANTITY_ELEMENT_REFUNDED = 'Booking Quantity Element Refunded';
+	const BOOKING_REMINDER = 'Booking Reminder';
+	const NEW_BOOKING_RECEIVED_FOR_ADMIN = 'New Booking Received For Admin';
+	const NEW_BOOKING_RECEIVED_FOR_AGENTS = 'New Booking Received For Agents';
+	const BOOKING_RECEIVED_SUCCESSFULLY = 'Booking Received Successfully';
+	const PAYMENT_RECEIVED = 'Payment Received';
+	const INVOICE = 'Invoice';
+	const REFUNDED = 'Refunded';
+	const COUPON = 'Coupon';
+}
+?>

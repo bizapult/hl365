@@ -1,0 +1,5194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booki v1.0\n"
+"POT-Creation-Date: 2016-10-03 14:19+0200\n"
+"PO-Revision-Date: 2016-10-03 14:19+0200\n"
+"Last-Translator: Alessandro Zifiglio <support@typps.com>\n"
+"Language-Team: Alessandro Zifiglio <support@typps.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../lib\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: ../ext\n"
+"X-Poedit-SearchPathExcluded-1: ../assets\n"
+"X-Poedit-SearchPathExcluded-2: ../.git\n"
+"X-Poedit-SearchPathExcluded-3: ../languages\n"
+
+#: controller/BillSettlementController.php:40
+#: controller/base/BaseCartController.php:24
+#, php-format
+msgid "Coupon is valid only on bookings that exceed %s."
+msgstr ""
+
+#: controller/BillSettlementController.php:42
+#: controller/base/BaseCartController.php:41
+msgid "Coupon has expired and is not valid anymore. No discount applied."
+msgstr ""
+
+#: controller/BillSettlementController.php:45
+#: controller/base/BaseCartController.php:44
+msgid "Coupon is not valid. No discount applied."
+msgstr ""
+
+#: controller/BillSettlementController.php:82
+#: controller/base/BaseCartController.php:225
+msgid ""
+"Coupon code is invalid and has been removed. Provide a valid coupon for "
+"discount or proceed without."
+msgstr ""
+
+#: controller/BillSettlementController.php:94
+msgid "Payments are currently disabled. Contact us for further assistance."
+msgstr ""
+
+#: controller/CreateBookingController.php:29
+msgid "Email is invalid"
+msgstr ""
+
+#: controller/FullCalendarDataController.php:103
+msgid "Has form elements"
+msgstr ""
+
+#: controller/FullCalendarDataController.php:116
+msgid "Has optionals"
+msgstr ""
+
+#: controller/FullCalendarDataController.php:129
+msgid "Has quantity elements"
+msgstr ""
+
+#: controller/FullCalendarDataController.php:142
+msgid "Has cascading items"
+msgstr ""
+
+#: controller/ManageGCalController.php:63
+msgid "Unable to retrieve your user info. Contact admin to set up profile."
+msgstr ""
+
+#: controller/ManageGCalController.php:74
+msgid "Only one profile allowed per user."
+msgstr ""
+
+#: controller/base/BaseCartController.php:21
+msgid "You can only apply 1 coupon at a time."
+msgstr ""
+
+#: controller/base/BaseCartController.php:36
+#: controller/base/BaseCartController.php:238
+msgid ""
+"Coupon code is invalid and has been removed. You are trying to apply a "
+"coupon code that is not valid on one of the bookings in your cart. Provide a "
+"valid coupon for discount or proceed without."
+msgstr ""
+
+#: controller/base/BaseCartController.php:254
+msgid ""
+"We received your booking successfully. We shall contact you shortly. Thanks!"
+msgstr ""
+
+#: controller/base/BaseCartController.php:258
+#, php-format
+msgid ""
+"We received your booking successfully. We tried sending you an invoice but "
+"apparently we are not able to \n"
+"\t\t\tsend emails at this time. To expedite contact us with your orderId "
+"{%d}. Thanks!"
+msgstr ""
+
+#: controller/base/BaseCartController.php:263
+msgid ""
+"We received your booking successfully. An invoice has been emailed to you. "
+"Please check your inbox or your spam folder!"
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:18
+msgid "Booking date is required or is in an invalid format."
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:123
+#, php-format
+msgid "You must make atleast %d selections"
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:129
+#: views/templates/bookingform.php:134
+#, php-format
+msgid "A minimum of %d days required."
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:132
+#, php-format
+msgid "You cannot select more than %d days."
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:136
+msgid ""
+"A minimum of 1 time slots required. If there are no time slots available, "
+"try a different date."
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:139
+#, php-format
+msgid "A minimum of %d time slots required."
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:142
+#, php-format
+msgid "You cannot select more than %d time slots."
+msgstr ""
+
+#: controller/utils/BookingFormParser.php:243
+msgid "You must select atleast one item from the dropdown list"
+msgstr ""
+
+#: domainmodel/entities/Attendee.php:93 domainmodel/entities/Order.php:279
+#: infrastructure/utils/BookingHelper.php:128
+#: infrastructure/utils/ContextMenuHelper.php:5
+msgid "Pending Approval"
+msgstr ""
+
+#: domainmodel/entities/Attendee.php:95 domainmodel/entities/Order.php:285
+#: infrastructure/utils/BookingHelper.php:130
+#: infrastructure/utils/ContextMenuHelper.php:7
+msgid "Approved"
+msgstr ""
+
+#: domainmodel/entities/Attendee.php:99
+#: infrastructure/utils/BookingHelper.php:132
+#: infrastructure/utils/BookingHelper.php:160
+#: infrastructure/utils/ContextMenuHelper.php:9
+#: infrastructure/utils/ContextMenuHelper.php:37
+msgid "Cancelled"
+msgstr ""
+
+#: domainmodel/entities/Attendee.php:105
+#: infrastructure/utils/BookingHelper.php:142
+#: infrastructure/utils/ContextMenuHelper.php:19
+msgid "info"
+msgstr ""
+
+#: domainmodel/entities/Attendee.php:107
+#: infrastructure/utils/BookingHelper.php:144
+#: infrastructure/utils/ContextMenuHelper.php:21
+msgid "success"
+msgstr ""
+
+#: domainmodel/entities/Attendee.php:111
+#: infrastructure/utils/BookingHelper.php:146
+#: infrastructure/utils/ContextMenuHelper.php:23
+msgid "danger"
+msgstr ""
+
+#: domainmodel/entities/Order.php:281
+#: infrastructure/utils/BookingHelper.php:136
+#: infrastructure/utils/ContextMenuHelper.php:13
+msgid "Pending User Cancel Request"
+msgstr ""
+
+#: domainmodel/entities/Order.php:283
+#: infrastructure/handlers/OrdersCSVHandler.php:64
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:80
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:164
+#: infrastructure/ui/lists/ManageOrderList.php:120
+#: infrastructure/ui/lists/ManageOrderList.php:235
+#: infrastructure/ui/lists/UserOrderList.php:169
+#: infrastructure/utils/BookingHelper.php:134
+#: infrastructure/utils/BookingHelper.php:156
+#: infrastructure/utils/ContextMenuHelper.php:11
+#: infrastructure/utils/ContextMenuHelper.php:33 views/ManageBookings.php:329
+#: views/partials/bookingdetails.php:420
+msgid "Refunded"
+msgstr ""
+
+#: domainmodel/entities/Project.php:176 views/CreateProjects.php:163
+msgid "Booking"
+msgstr ""
+
+#: domainmodel/entities/Project.php:179 views/CreateProjects.php:164
+msgid "Details"
+msgstr ""
+
+#: domainmodel/entities/Project.php:182 views/CreateProjects.php:106
+#: views/CreateProjects.php:165
+msgid "Attendees"
+msgstr ""
+
+#: domainmodel/entities/Project.php:185 views/CreateProjects.php:167
+msgid "Selected days"
+msgstr ""
+
+#: domainmodel/entities/Project.php:188 views/CreateProjects.php:166
+msgid "Available days"
+msgstr ""
+
+#: domainmodel/entities/Project.php:191 views/CreateProjects.php:171
+msgid "Back"
+msgstr ""
+
+#: domainmodel/entities/Project.php:194 views/CreateProjects.php:170
+msgid "Next"
+msgstr ""
+
+#: domainmodel/entities/Project.php:197 views/CreateProjects.php:172
+#: views/GeneralSettings.php:282 views/GeneralSettings.php:291
+msgid "Add to cart"
+msgstr ""
+
+#: domainmodel/entities/Project.php:200 domainmodel/entities/Resx.php:161
+#: views/CreateProjects.php:168
+msgid "Booking time"
+msgstr ""
+
+#: domainmodel/entities/Project.php:203 views/CreateProjects.php:169
+msgid "Optional extras"
+msgstr ""
+
+#: domainmodel/entities/Project.php:206
+#: infrastructure/ui/lists/ProjectList.php:131 views/CancelledBookings.php:92
+#: views/CreateProjects.php:128 views/CreateProjects.php:173
+#: views/ManageBookings.php:272 views/ManageUsers.php:170
+#: views/ViewBookings.php:90
+msgid "From"
+msgstr ""
+
+#: domainmodel/entities/Project.php:209
+#: infrastructure/ui/lists/ProjectList.php:133 views/CancelledBookings.php:102
+#: views/CreateProjects.php:130 views/CreateProjects.php:174
+#: views/ManageBookings.php:282 views/ManageUsers.php:180
+#: views/ViewBookings.php:100
+msgid "To"
+msgstr ""
+
+#: domainmodel/entities/Project.php:212 domainmodel/entities/Resx.php:177
+#: views/CreateProjects.php:175
+msgid "Proceed"
+msgstr ""
+
+#: domainmodel/entities/Project.php:215
+msgid "Make booking"
+msgstr ""
+
+#: domainmodel/entities/Project.php:218 views/CreateProjects.php:147
+#, php-format
+msgid "%d seats left."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:121
+#, php-format
+msgid "For your reference, your order id is #%s."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:122
+#, php-format
+msgid ""
+"You can view full details of your order at anytime in your order %s page."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:123 views/partials/bookingdetails.php:396
+msgid "Subtotal"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:124 views/CreateProjects.php:326
+msgid "Deposit"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:125
+#: infrastructure/emails/NotificationEmailer.php:432
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:206
+#: infrastructure/ui/lists/ManageCouponList.php:150
+#: infrastructure/ui/lists/ManageOrderList.php:344
+#: views/GeneralSettings.php:675 views/GeneralSettings.php:684
+#: views/ManageCoupons.php:208 views/ManageUsers.php:320
+#: views/ManageUsers.php:329 views/partials/bookingdetails.php:411
+msgid "Discount"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:126
+#: infrastructure/emails/NotificationEmailer.php:440
+#: infrastructure/ui/lists/ManageOrderList.php:345
+#: views/GeneralSettings.php:984 views/GeneralSettings.php:992
+#: views/partials/bookingdetails.php:404
+msgid "Tax"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:127
+#: infrastructure/emails/NotificationEmailer.php:447
+#: views/partials/bookingdetails.php:425
+msgid "Total"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:128
+msgid "history"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:129
+msgid "Congrats!"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:130
+#, php-format
+msgid "You have a %d%% discount!"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:131
+msgid "Book now"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:132
+msgid "Book now, pay later"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:133
+msgid "Booking for"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:134
+msgid "Days Booked"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:135 views/CreateProjects.php:298
+msgid "Quantity"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:136
+msgid "Extras"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:137
+#, php-format
+msgid "Discount %s"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:138 views/ManageUsers.php:301
+#: views/ManageUsers.php:330 views/ManageUsers.php:348
+msgid "Coupon"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:139
+msgid "Promotions"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:140
+msgid "from"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:141
+msgid "to"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:143
+msgid "Some bookings are not available anymore and cannot be booked."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:144
+msgid "Seats are exhausted. Try selecting a different day."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:145
+msgid ""
+"The last date you tried to book requires additional components that are "
+"exhausted. Try selecting a different day."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:146
+msgid ""
+"Please fill out all of the required fields and ensure there are no "
+"validation errors."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:147
+msgid "You have added the last availabe booking to cart. Checkout ?"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:148
+msgid ""
+"You only need to pay a deposit to confirm your booking. The remainder needs "
+"to be paid on arrival."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:149
+msgid "Create booking"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:150
+msgid "Check out"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:153
+#, php-format
+msgid ""
+"There was a problem processing your payment [%s]. Please try again, if "
+"problem persists contact support. We apologize for any inconvenience."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:154
+msgid "Your payment has been processed successfully."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:155
+msgid "Your booking will be confirmed shortly."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:156
+msgid ""
+"Some bookings are not available anymore and have been removed from cart."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:157 infrastructure/actions/Admin.php:140
+#: infrastructure/ui/lists/ManageUserList.php:108
+#: infrastructure/ui/lists/OrdersMadeAggregateList.php:39
+#: views/CancelledBookings.php:86 views/DataViewer.php:62
+#: views/ViewBookings.php:78 views/ViewBookings.php:84
+#: views/user/singlecolstatspartial.php:69
+#: views/user/singlecolstatspartial.php:83 views/user/statspartial.php:71
+#: views/user/statspartial.php:87
+msgid "Bookings"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:158
+msgid "Bookings are exhausted."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:159 views/CreateProjects.php:342
+#: views/CreateProjects.php:388 views/CreateProjects.php:411
+#: views/templates/minicart.php:84 views/templates/minicart.php:139
+#: views/templates/minicart.php:193 views/templates/minicart.php:247
+msgid "Cost"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:160
+msgid "Booking date"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:162
+msgid "Timezone offset"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:163
+msgid "Deposit required now"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:164 views/partials/bookingdetails.php:387
+msgid "Amount due on arrival"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:165
+msgid "There are no items to checkout."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:166
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:167
+msgid "Redeem"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:168
+msgid "Remove coupon"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:169
+msgid "Help"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:170
+msgid "How coupons work"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:171
+msgid "Enter your coupon code. To update your cart, click on redeem."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:172
+msgid ""
+"If you require a refund on an order placed using a coupon, the value of the "
+"coupon will not be refunded."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:173
+msgid "The coupons are valid for a limited period of time."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:174
+msgid ""
+"We are authorized to proceed with payment. Please review the above booking "
+"and confirm payment."
+msgstr ""
+
+#: domainmodel/entities/Resx.php:175
+msgid "Empty cart"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:176
+msgid "Book more"
+msgstr ""
+
+#: domainmodel/entities/Resx.php:178
+msgid "Confirm and pay"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:61
+msgid ""
+"Booki has been tested to work with WordPress 3.0 or higher. We recommend you "
+"upgrade."
+msgstr ""
+
+#: infrastructure/actions/Admin.php:61
+#, php-format
+msgid "Please <a href=\"%s\">upgrade WordPress</a> to a current version."
+msgstr ""
+
+#: infrastructure/actions/Admin.php:116
+msgid "Booki.io - The Booking Application for WordPress"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:129
+msgid "Create/Edit new or existing booking projects"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:130
+msgid "Projects"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:139
+msgid "New Bookings made recently"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:148
+msgid "Manage bookings by order made"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:149 views/ManageBookings.php:266
+msgid "Orders"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:158
+msgid "Create new booking manually"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:159 views/ManageBookings.php:249
+msgid "New bookings"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:168
+msgid "Manage discount coupons"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:169 views/ManageCoupons.php:299
+msgid "Coupons"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:178
+msgid "Manage users"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:179 views/ManageUsers.php:90
+#: views/ManageUsers.php:164
+msgid "Users"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:198 infrastructure/actions/Admin.php:199
+msgid "Email Settings"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:208 infrastructure/actions/Admin.php:209
+msgid "Invoice Settings"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:218
+msgid "Edit string resources found in the booking form"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:219
+msgid "String Resources"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:228
+msgid "Manage service providers"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:229 views/ManageRoles.php:189
+msgid "Service providers"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:239 views/ManageGCal.php:85
+msgid "Manage Google calendar profiles"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:240
+msgid "GCal profiles"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:249 infrastructure/actions/Admin.php:250
+#: views/GeneralSettings.php:89
+msgid "General Settings"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:259
+msgid "User history --past bookings etc"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:260
+msgid "Booking history"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:269
+msgid "View or undo a cancelled booking"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:270
+msgid "Cancel history"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:279
+msgid "Record of email reminders sent out by system."
+msgstr ""
+
+#: infrastructure/actions/Admin.php:280 views/CreateProjects.php:275
+#: views/CreateProjects.php:277 views/Reminders.php:47
+msgid "Email reminders"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:289
+msgid "Logs errors returned by Paypal, Mailchimp and Email failures"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:290
+msgid "Event log"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:300
+msgid "Allows you to check data in the database"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:301
+msgid "Diagnostics"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:311
+msgid "General statistics"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:312 views/user/singlecolstatspartial.php:7
+#: views/user/statspartial.php:8
+msgid "Stats"
+msgstr ""
+
+#: infrastructure/actions/Admin.php:321 infrastructure/actions/Admin.php:322
+#: views/Uninstall.php:30
+msgid "Uninstall"
+msgstr ""
+
+#: infrastructure/actions/Register.php:57
+msgid "Register"
+msgstr ""
+
+#: infrastructure/actions/Register.php:152
+#: infrastructure/templates/BookingViewTmpl.php:11
+#: infrastructure/widgets/BookingsListWidget.php:69
+#: views/CreateProjects.php:160
+msgid "Find a booking"
+msgstr ""
+
+#: infrastructure/actions/Register.php:153
+#: infrastructure/templates/BookingViewTmpl.php:12
+#: infrastructure/widgets/BookingsListWidget.php:70
+#: views/CreateProjects.php:161
+msgid "Check-in"
+msgstr ""
+
+#: infrastructure/actions/Register.php:154
+#: infrastructure/templates/BookingViewTmpl.php:13
+#: infrastructure/widgets/BookingsListWidget.php:71
+#: views/CreateProjects.php:162
+msgid "Check-out"
+msgstr ""
+
+#: infrastructure/ajax/TimezoneControlBridge.php:27
+msgid "Select new timezone"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:253
+msgid "INVOICE"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:263
+#: views/InvoiceSettings.php:80
+msgid "Address"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:267
+msgid "Tel"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:271
+#: infrastructure/ui/lists/ManageCouponList.php:72
+#: infrastructure/ui/lists/ManageGCalList.php:150
+#: infrastructure/ui/lists/ManageRolesList.php:120
+#: infrastructure/ui/lists/ManageUserList.php:107 views/InvoiceSettings.php:106
+#: views/ManageUsers.php:111
+msgid "Email"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:278
+msgid "STATUS: PAID"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:280
+msgid "STATUS: UNPAID"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:286
+msgid "SOLD TO:"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:291
+#: infrastructure/ui/lists/ReminderList.php:112
+msgid "EMAIL"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:294
+msgid "Coupon discount:"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:298
+msgid "SALES TAX RATE:"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:302
+msgid "ORDER NUMBER"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:304
+msgid "CUSTOMER NUMBER"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:306
+msgid "ORDER DATE"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:333
+msgid "BOOKINGS"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:337
+msgid "COST"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:358
+#: views/GeneralSettings.php:109 views/partials/timezonecontrol.php:37
+#: views/templates/timezonecontrol.php:40
+msgid "Timezone"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:411
+msgid "Payment due upon arrival"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:417
+#: views/partials/bookingdetails.php:391
+msgid "Advance deposit"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:425
+msgid "Sub total"
+msgstr ""
+
+#: infrastructure/emails/NotificationEmailer.php:471
+msgid "ADDITIONAL INFORMATION"
+msgstr ""
+
+#: infrastructure/gcal/GCalService.php:77
+#, php-format
+msgid "%d new events created and %d events synced."
+msgstr ""
+
+#: infrastructure/gcal/GCalService.php:369
+#: infrastructure/gcal/GCalService.php:374
+#, php-format
+msgid "Booked by %s"
+msgstr ""
+
+#: infrastructure/handlers/OrdersCSVHandler.php:60
+msgid "Unpaid"
+msgstr ""
+
+#: infrastructure/handlers/OrdersCSVHandler.php:62
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:73
+#: infrastructure/ui/lists/ManageOrderList.php:113
+#: infrastructure/ui/lists/ManageOrderList.php:250
+#: infrastructure/ui/lists/UserOrderList.php:166 views/ManageBookings.php:321
+msgid "Paid"
+msgstr ""
+
+#: infrastructure/ui/BookingForm.php:365
+#: views/templates/cascadingdropdownlists.php:23
+msgid "Select an item"
+msgstr ""
+
+#: infrastructure/ui/BookingForm.php:366
+msgid "Payment due on arrival"
+msgstr ""
+
+#: infrastructure/ui/BookingForm.php:371
+#, php-format
+msgid "There are no more %s left for this day."
+msgstr ""
+
+#: infrastructure/ui/CustomFormElements.php:29
+msgid "Value not required on multiple bookings for the same item"
+msgstr ""
+
+#: infrastructure/ui/lists/BookingsList.php:119
+msgid "View Order"
+msgstr ""
+
+#: infrastructure/ui/lists/BookingsList.php:125
+msgid "DATES AND TIME"
+msgstr ""
+
+#: infrastructure/ui/lists/BookingsList.php:126
+#: infrastructure/ui/lists/CancelledBookingsList.php:168
+msgid "PROJECT/S"
+msgstr ""
+
+#: infrastructure/ui/lists/BookingsList.php:127
+#: infrastructure/ui/lists/CancelledBookingsList.php:169
+msgid "ADDITIONAL INFO"
+msgstr ""
+
+#: infrastructure/ui/lists/BookingsList.php:128
+#: infrastructure/ui/lists/ManageRolesList.php:122
+msgid "Action"
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:131
+msgid "Put booking back to original status as was before cancellation."
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:132
+msgid "Undo"
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:142
+msgid "Deletes booking permanently from system. Cannot be recovered."
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:143
+msgid "Delete permanently"
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:164
+#: infrastructure/ui/lists/ManageUserList.php:105
+#: infrastructure/ui/lists/ReminderList.php:108
+msgid "ID"
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:165
+#: infrastructure/ui/lists/ReminderList.php:109
+msgid "ORDER ID"
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:166
+msgid "CANCELLATION DATE"
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:167
+msgid "BOOKING DATES AND TIME"
+msgstr ""
+
+#: infrastructure/ui/lists/CancelledBookingsList.php:170
+#: infrastructure/ui/lists/ReminderList.php:113
+msgid "ACTION"
+msgstr ""
+
+#: infrastructure/ui/lists/DataViewerList.php:27
+msgid "Column name"
+msgstr ""
+
+#: infrastructure/ui/lists/DataViewerList.php:28
+msgid "value"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:53
+msgid "Total amount paid."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:58
+#: infrastructure/ui/lists/ManageOrderList.php:89
+msgid "Refunded amount."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:72
+#: infrastructure/ui/lists/ManageOrderList.php:112
+msgid "Order has been paid. Send a confirmation."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:79
+#: infrastructure/ui/lists/ManageOrderList.php:119
+msgid "Payment has been refunded."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:86
+#: infrastructure/ui/lists/ManageOrderList.php:126
+msgid ""
+"Payment has been partially refunded. You can refund the remainder by "
+"clicking refund."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:87
+#: infrastructure/ui/lists/ManageOrderList.php:127
+msgid "Partially Refunded"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:94
+#: infrastructure/ui/lists/ManageOrderList.php:134
+msgid "Not yet paid. Try sending an invoice."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:95
+#: infrastructure/ui/lists/ManageOrderList.php:135
+#: infrastructure/ui/lists/UserOrderList.php:163
+msgid "Pending"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:106
+#: infrastructure/ui/lists/ManageOrderList.php:146
+msgid "Number of invoices emailed."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:107
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:150
+#: infrastructure/ui/lists/ManageOrderList.php:147
+#: infrastructure/ui/lists/ManageOrderList.php:221
+msgid "Invoice"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:118
+#: infrastructure/ui/lists/ManageOrderList.php:158
+msgid "Number of refund notifications emailed."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:119
+#: infrastructure/ui/lists/ManageOrderList.php:159
+#: infrastructure/ui/lists/ManageOrderList.php:208
+msgid "Refund"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:136
+#: infrastructure/ui/lists/ManageCouponList.php:51
+#: infrastructure/ui/lists/ManageUserList.php:61
+#: infrastructure/ui/lists/UserOrderList.php:91
+msgid "Select"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:149
+#: infrastructure/ui/lists/ManageOrderList.php:220
+msgid "Sends an invoice to the client with payment instructions."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:163
+#: infrastructure/ui/lists/ManageOrderList.php:234
+msgid "Sends a refund confirmation email to user."
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:202
+#: infrastructure/ui/lists/ManageGCalList.php:149
+#: infrastructure/ui/lists/ManageOrderList.php:339
+#: infrastructure/ui/lists/ManageRolesList.php:116
+msgid "#"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:203
+#: infrastructure/ui/lists/ManageOrderList.php:341
+#: infrastructure/ui/lists/OrdersMadeAggregateList.php:40
+#: infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:48
+#: infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:48
+msgid "Order Date"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:204
+#: infrastructure/ui/lists/ManageOrderList.php:342
+msgid "Payment Date"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:205
+#: infrastructure/ui/lists/ManageOrderList.php:343
+msgid "Amount"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:207
+#: infrastructure/ui/lists/ManageCouponList.php:153
+msgid "Status"
+msgstr ""
+
+#: infrastructure/ui/lists/EditorApprovedOrderList.php:208
+#: infrastructure/ui/lists/ManageOrderList.php:349
+msgid "Task"
+msgstr ""
+
+#: infrastructure/ui/lists/EventsLogList.php:61
+#: infrastructure/ui/lists/ManageRolesList.php:94
+#: infrastructure/ui/lists/ManageUserList.php:81
+#: infrastructure/ui/lists/ReminderList.php:85 views/CreateProjects.php:155
+#: views/CreateProjects.php:393 views/CreateProjects.php:410
+#: views/ManageCoupons.php:288 views/ManageGCal.php:103
+#: views/ManageRoles.php:79 views/ManageUsers.php:135 views/Uninstall.php:66
+#: views/Uninstall.php:109
+msgid "Delete"
+msgstr ""
+
+#: infrastructure/ui/lists/EventsLogList.php:83
+#: infrastructure/ui/lists/ManageCouponList.php:148
+msgid "#id"
+msgstr ""
+
+#: infrastructure/ui/lists/EventsLogList.php:84
+msgid "Entry Date"
+msgstr ""
+
+#: infrastructure/ui/lists/EventsLogList.php:85
+msgid "Error"
+msgstr ""
+
+#: infrastructure/ui/lists/EventsLogList.php:86
+#: infrastructure/ui/lists/ManageCouponList.php:156
+#: infrastructure/ui/lists/UserOrderList.php:183
+msgid "Tasks"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:71
+msgid "Send coupon to user via email"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:94
+msgid "Any project"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:97
+msgid "Regular"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:97
+msgid "Super"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:107
+msgid "Coupon has expired!"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:107
+msgid "Expiration date"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:117
+msgid "Discount provided by code"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:125
+msgid "The minimum booking required for coupon discount to apply."
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:132
+msgid "The code to use for discount to apply."
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:140
+msgid "The code is to be claimed by"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:141
+msgid "The code has not been used yet."
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:142
+msgid "Unused"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:149 views/CreateProjects.php:46
+#: views/ManageCoupons.php:134 views/ManageRoles.php:145
+#: views/ManageUsers.php:285
+msgid "Project"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:151
+msgid "Order Min."
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:152
+msgid "Expiration"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:154
+msgid "Coupon type"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageCouponList.php:155
+msgid "Code"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:50
+#: infrastructure/ui/lists/ManageGCalList.php:53
+msgid "Saved"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:56
+msgid "Authorized"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:72
+#: infrastructure/ui/lists/ManageRolesList.php:74
+msgid "Edit"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:92
+msgid "Grant permission so that Booki can access this calendar"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:93
+msgid "Authorize"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:104
+msgid "Sync bookings with calendar"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:105
+msgid "Sync"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:115
+msgid "Delete all synced data from your google calendar"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:116
+msgid "Delete synced data"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:127
+msgid "Deletes this profile"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:128
+msgid "Delete profile"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:151
+msgid "Application Name"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:152
+msgid "Projects synced"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:153 views/ManageGCal.php:212
+msgid "Client Id"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:154 views/ManageGCal.php:226
+msgid "Client Secret"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:155
+msgid "Authorization"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageGCalList.php:156
+msgid "Actions"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:84
+msgid "Total amount paid, after discount."
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:98
+msgid "Member"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:98
+msgid "Not member"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:175
+msgid "View details"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:190
+msgid "Mark item as refunded."
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:249
+msgid "Marks the order as paid"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:266
+msgid "Approve all items in this order"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:267
+msgid "Approve"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:280
+msgid "Cancels this order"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:281
+#: infrastructure/ui/lists/UserOrderList.php:137 views/ManageBookings.php:172
+#: views/ManageBookings.php:227 views/ManageGCal.php:100
+#: views/ManageRoles.php:76 views/ManageUsers.php:132
+#: views/partials/bookingdetails.php:187 views/partials/bookingdetails.php:210
+#: views/partials/bookingdetails.php:289 views/partials/bookingdetails.php:365
+#: views/partials/refundtransaction.php:139
+msgid "Cancel"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:300
+msgid "Create user account for this user and register with system."
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:301
+msgid "Register User"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:312
+msgid "No user associated with booking. Create one ?"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:313
+msgid "Add User"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:340
+msgid "User Info"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:346
+#: infrastructure/ui/lists/UserOrderList.php:182
+msgid "Payment"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:347
+msgid "Registration"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageOrderList.php:348
+msgid "Approval status"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageRolesList.php:93
+msgid "Deletes this role"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageRolesList.php:117
+msgid "Project Id"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageRolesList.php:118
+msgid "Project Name"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageRolesList.php:119
+msgid "User Id"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageRolesList.php:121
+#: infrastructure/ui/lists/ManageUserList.php:106 views/Paypal.php:59
+msgid "Username"
+msgstr ""
+
+#: infrastructure/ui/lists/ManageUserList.php:44
+msgid "Name not provided"
+msgstr ""
+
+#: infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:46
+msgid "Refunds count"
+msgstr ""
+
+#: infrastructure/ui/lists/OrdersRefundAmountAggregateList.php:47
+msgid "Refund Total"
+msgstr ""
+
+#: infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:46
+msgid "Total Amount"
+msgstr ""
+
+#: infrastructure/ui/lists/OrdersTotalAmountAggregateList.php:47
+msgid "Total Discounts"
+msgstr ""
+
+#: infrastructure/ui/lists/ProjectList.php:116
+msgid "All bookings exhausted"
+msgstr ""
+
+#: infrastructure/ui/lists/ProjectList.php:121
+#: infrastructure/ui/lists/ProjectList.php:130
+msgid "Booking available from"
+msgstr ""
+
+#: infrastructure/ui/lists/ReminderList.php:73
+msgid "Send reminder again."
+msgstr ""
+
+#: infrastructure/ui/lists/ReminderList.php:74
+msgid "Send another reminder"
+msgstr ""
+
+#: infrastructure/ui/lists/ReminderList.php:84
+msgid "Delete this reminder."
+msgstr ""
+
+#: infrastructure/ui/lists/ReminderList.php:110
+msgid "SENT DATE"
+msgstr ""
+
+#: infrastructure/ui/lists/ReminderList.php:111
+msgid "NAME"
+msgstr ""
+
+#: infrastructure/ui/lists/UserOrderList.php:117
+msgid "Pay"
+msgstr ""
+
+#: infrastructure/ui/lists/UserOrderList.php:136
+msgid "A cancel request is given for all items in this order."
+msgstr ""
+
+#: infrastructure/ui/lists/UserOrderList.php:180
+msgid "order id"
+msgstr ""
+
+#: infrastructure/ui/lists/UserOrderList.php:181
+msgid "Date"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:396
+msgid "Select bulk action"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:398
+msgid "Bulk Actions"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:408
+msgid "Apply"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:509
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:525
+msgid "List View"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:526
+msgid "Excerpt View"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:559
+#, php-format
+msgid "%s pending"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:668
+msgid "Select Page"
+msgstr ""
+
+#: infrastructure/ui/lists/base/ListTable.php:823
+msgid "Select All"
+msgstr ""
+
+#: infrastructure/utils/BookingHelper.php:148
+#: infrastructure/utils/ContextMenuHelper.php:25
+msgid "warning"
+msgstr ""
+
+#: infrastructure/utils/BookingHelper.php:158
+#: infrastructure/utils/ContextMenuHelper.php:35
+msgid "Pending Cancel Request"
+msgstr ""
+
+#: infrastructure/utils/Validator.php:14
+#, php-format
+msgid "%s: Field \"%s\" is required."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:15
+#, php-format
+msgid "%s: Field \"%s\" should not be blank."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:16
+#, php-format
+msgid "%s: Field \"%s\" value is too short."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:17
+#, php-format
+msgid "%s: Field \"%s\" value is too long."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:18
+#, php-format
+msgid "%s: Field \"%s\" value is smaller than expected."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:19
+#, php-format
+msgid "%s: Field \"%s\" value is larger than expected."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:20
+#, php-format
+msgid "%s: Field \"%s\" is in valid."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:21
+#, php-format
+msgid "%s: Field \"%s\" value is not a valid email."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:22
+#, php-format
+msgid "%s: Field \"%s\" value is not a valid url."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:23
+#, php-format
+msgid "%s: Field \"%s\" value should be digits."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:24
+#, php-format
+msgid "%s: Field \"%s\" value should be a number."
+msgstr ""
+
+#: infrastructure/utils/Validator.php:25
+#, php-format
+msgid "%s: Field \"%s\" value can only contain alpha numeric characters."
+msgstr ""
+
+#: infrastructure/widgets/BasketWidget.php:6
+msgid "Booki - Basket/Cart"
+msgstr ""
+
+#: infrastructure/widgets/BasketWidget.php:7
+msgid "Booki basket  --Allows you to embed the mini cart via a widget"
+msgstr ""
+
+#: infrastructure/widgets/BookingsListWidget.php:7
+msgid "Booki - Bookings listing"
+msgstr ""
+
+#: infrastructure/widgets/BookingsListWidget.php:8
+msgid ""
+"Booki listings --Allows you to list projects based on their tag. If no tag "
+"is supplied, all projects are listed."
+msgstr ""
+
+#: views/CancelledBookings.php:80
+msgid "Cancelled bookings"
+msgstr ""
+
+#: views/CancelledBookings.php:81
+msgid "View or undo cancelled bookings"
+msgstr ""
+
+#: views/CancelledBookings.php:87
+msgid "Filter bookings by cancellation date"
+msgstr ""
+
+#: views/CancelledBookings.php:114 views/ManageBookings.php:294
+#: views/ManageRoles.php:213 views/ManageUsers.php:192
+#: views/ViewBookings.php:112 views/templates/list.php:70
+msgid "Filter"
+msgstr ""
+
+#: views/CreateBookings.php:60
+msgid "Create bookings"
+msgstr ""
+
+#: views/CreateBookings.php:61
+msgid "Create bookings manually and email them to user."
+msgstr ""
+
+#: views/CreateBookings.php:67
+msgid "The booking was created successfully and an email was sent."
+msgstr ""
+
+#: views/CreateBookings.php:90
+msgid ""
+"The booking will be emailed to the user email provided below. If payments "
+"are enabled then an invoice is emailed along with payment instructions.\n"
+"\t\t\t\t\t\t\t\tIf user is not already registered, then a new user is also "
+"created and login credentials along with invoice are emailed. After entering "
+"the email below, click [Create booking] to proceed."
+msgstr ""
+
+#: views/CreateBookings.php:111
+msgid "Whoops! No more bookings available for selected project."
+msgstr ""
+
+#: views/CreateBookings.php:127
+msgid ""
+"Email not found. A new user will be created and the booking emailed along "
+"with the user account credentials."
+msgstr ""
+
+#: views/CreateBookings.php:128
+msgid "User email found. Username is"
+msgstr ""
+
+#: views/CreateProjects.php:32
+msgid "Create, edit and delete projects"
+msgstr ""
+
+#: views/CreateProjects.php:33
+msgid ""
+"The basis for any bookings. It all takes place here. A project is how you "
+"define a unique booking."
+msgstr ""
+
+#: views/CreateProjects.php:45
+msgid "Request in progress..."
+msgstr ""
+
+#: views/CreateProjects.php:47 views/ManageBookings.php:255
+msgid "Select a project"
+msgstr ""
+
+#: views/CreateProjects.php:48 views/CreateProjects.php:196
+#: views/CreateProjects.php:404
+msgid "Create new"
+msgstr ""
+
+#: views/CreateProjects.php:49
+msgid "Short Code"
+msgstr ""
+
+#: views/CreateProjects.php:50 views/CreateProjects.php:53
+msgid "Duplicate project name"
+msgstr ""
+
+#: views/CreateProjects.php:51
+msgid "Duplicate project"
+msgstr ""
+
+#: views/CreateProjects.php:52 views/CreateProjects.php:153
+#: views/CreateProjects.php:364 views/CreateProjects.php:405
+#: views/ManageCoupons.php:271
+msgid "Create"
+msgstr ""
+
+#: views/CreateProjects.php:54
+msgid ""
+"Supply a name for your duplicate project and hit create. This will create a "
+"duplicate of all the settings of the current project. This is especially "
+"helpful when you want to create a list of separate bookings, based off the "
+"current booking. The new duplicated project will contain everything from "
+"project settings, to form fields, booking calendar values and optionals. "
+"Cascading lists will be copied over too but the relationships will be reset. "
+"That means you will have to re-establish the relationships for cascading "
+"lists again."
+msgstr ""
+
+#: views/CreateProjects.php:55
+msgid "Name"
+msgstr ""
+
+#: views/CreateProjects.php:56
+msgid "Attention: Booking mode"
+msgstr ""
+
+#: views/CreateProjects.php:57
+msgid "Project status"
+msgstr ""
+
+#: views/CreateProjects.php:58
+msgid ""
+"A projects status can be \\\"running\\\", this means it will still serve "
+"bookings if there are available days OR the status can be \\\"stopped\\\", "
+"which means bookings won't be allowed regardless of bookings availability."
+msgstr ""
+
+#: views/CreateProjects.php:59
+msgid "Running"
+msgstr ""
+
+#: views/CreateProjects.php:60
+msgid "Stopped"
+msgstr ""
+
+#: views/CreateProjects.php:61
+msgid ""
+"Reservation mode allows multiple users to book the same day and time slot "
+"intervals. Appointment mode on the other hand allows only one time bookings. "
+"Once a booking is made, the same day/time combinations won't be available "
+"for booking again."
+msgstr ""
+
+#: views/CreateProjects.php:62 views/CreateProjects.php:315
+msgid "Booking mode"
+msgstr ""
+
+#: views/CreateProjects.php:63
+msgid "Reservation"
+msgstr ""
+
+#: views/CreateProjects.php:64
+msgid "Appointment"
+msgstr ""
+
+#: views/CreateProjects.php:65 views/CreateProjects.php:67
+msgid "Maximum booking days or time slots"
+msgstr ""
+
+#: views/CreateProjects.php:66
+msgid ""
+"Provide the maximum number of days or time slots that can be booked in a "
+"single booking calendar. A value of 1, the default will not allow multiple "
+"selections i.e. only 1 day or time slot can be booked at a time. Note when "
+"selecting range calendar, ensure that this value is greater than 1."
+msgstr ""
+
+#: views/CreateProjects.php:68 views/CreateProjects.php:70
+msgid "Minimum booking days or timeslots"
+msgstr ""
+
+#: views/CreateProjects.php:69
+msgid ""
+"Provide the minimum number of days or timeslots that must be booked in a "
+"single booking calendar. A value of 0, the default means no minimum is "
+"applied."
+msgstr ""
+
+#: views/CreateProjects.php:71
+msgid ""
+"The bookings calendar can be either pop up, inline, range or next day "
+"checkout. A popup calendar is one where a textbox is used to show the "
+"selected date which pops up a calendar when clicked allowing date selection. "
+"Inline is when an always visible calendar is used. Range will give you a set "
+"of \\\"From\\\" and \\\"To\\\" popup calendars. Next day checkout gives you "
+"a range selector that counts the date diff between now and then instead of "
+"adding all days in the range."
+msgstr ""
+
+#: views/CreateProjects.php:72
+msgid "Calendar mode"
+msgstr ""
+
+#: views/CreateProjects.php:73
+msgid "Popup"
+msgstr ""
+
+#: views/CreateProjects.php:74
+msgid "Inline"
+msgstr ""
+
+#: views/CreateProjects.php:75
+msgid "Range"
+msgstr ""
+
+#: views/CreateProjects.php:76
+msgid "Next day check out"
+msgstr ""
+
+#: views/CreateProjects.php:77
+msgid "Event"
+msgstr ""
+
+#: views/CreateProjects.php:78
+msgid "Tagging"
+msgstr ""
+
+#: views/CreateProjects.php:79
+msgid ""
+"Tagging allows you to group common projects together. Grouped projects get "
+"listed using the booki-list shortcode or widget. Select an existing tag or "
+"create a new one to associate to this project."
+msgstr ""
+
+#: views/CreateProjects.php:80
+msgid "Tag"
+msgstr ""
+
+#: views/CreateProjects.php:81
+msgid ""
+"A short description. This will be used along with the preview thumbnail when "
+"listing projects using the booki-list shortcode or widget."
+msgstr ""
+
+#: views/CreateProjects.php:82
+msgid "Description"
+msgstr ""
+
+#: views/CreateProjects.php:83
+msgid ""
+"A preview image used when listing projects using the booki-list shortcode or "
+"widget."
+msgstr ""
+
+#: views/CreateProjects.php:84
+msgid "Preview image"
+msgstr ""
+
+#: views/CreateProjects.php:85
+msgid "Project listing settings"
+msgstr ""
+
+#: views/CreateProjects.php:86
+msgid "Booking control label settings"
+msgstr ""
+
+#: views/CreateProjects.php:87
+msgid "Optional Lists and Optional Cascading Lists Booking Mode"
+msgstr ""
+
+#: views/CreateProjects.php:88
+msgid ""
+"Optional Lists and Optional Cascading Lists  can apply to a single booking. "
+"Note that a single booking can contain multiple days and time slots if your "
+"booking allows selecting multiple days and time slots at the same time. "
+"Alternatively optionals can apply for each day/time slot selected."
+msgstr ""
+
+#: views/CreateProjects.php:89
+msgid "General project settings"
+msgstr ""
+
+#: views/CreateProjects.php:90
+msgid "Each booking"
+msgstr ""
+
+#: views/CreateProjects.php:91
+msgid "Each day or time slot selected"
+msgstr ""
+
+#: views/CreateProjects.php:92
+msgid "Optionals listing mode"
+msgstr ""
+
+#: views/CreateProjects.php:93
+msgid ""
+"Optional Lists can be presented in a checkbox list which is the default or "
+"in a radio button list. If a checkbox list is chosen, you can additionally "
+"set the minimum items to be checked, in order to proceed with the booking."
+msgstr ""
+
+#: views/CreateProjects.php:94
+msgid "Checkbox List"
+msgstr ""
+
+#: views/CreateProjects.php:95
+msgid "RadioButton List"
+msgstr ""
+
+#: views/CreateProjects.php:96
+msgid "Minimum number of optional selections required"
+msgstr ""
+
+#: views/CreateProjects.php:97
+msgid "Enter new tag"
+msgstr ""
+
+#: views/CreateProjects.php:98
+msgid "Booking wizard mode"
+msgstr ""
+
+#: views/CreateProjects.php:99
+msgid ""
+"The booking wizard can be split up in two tabs, one containing the booking "
+"calendar and optionals, while the other containing the custom form fields. "
+"This is the default. Alternatively you can combine it all and display "
+"everything linearly, in a top to bottom fashion."
+msgstr ""
+
+#: views/CreateProjects.php:100
+msgid "Tabs"
+msgstr ""
+
+#: views/CreateProjects.php:101
+msgid "Linear"
+msgstr ""
+
+#: views/CreateProjects.php:102
+msgid ""
+"If you set up custom form fields, then this option allows you to decide "
+"which form is shown first in the booking wizard."
+msgstr ""
+
+#: views/CreateProjects.php:103
+msgid "Default step"
+msgstr ""
+
+#: views/CreateProjects.php:104
+msgid "Booking form"
+msgstr ""
+
+#: views/CreateProjects.php:105
+msgid "Custom form fields"
+msgstr ""
+
+#: views/CreateProjects.php:107
+msgid "The label to use for the booking tab in the booking wizard."
+msgstr ""
+
+#: views/CreateProjects.php:108
+msgid "Booking tab caption"
+msgstr ""
+
+#: views/CreateProjects.php:109
+msgid ""
+"The caption to use for the custom form fields tab in the booking wizard."
+msgstr ""
+
+#: views/CreateProjects.php:110
+msgid "Custom form fields tab caption"
+msgstr ""
+
+#: views/CreateProjects.php:111
+msgid ""
+"The caption to use for the attendees tab in the booking wizard. This is "
+"where a list of people attending is shown."
+msgstr ""
+
+#: views/CreateProjects.php:112
+msgid "Attendees tab caption"
+msgstr ""
+
+#: views/CreateProjects.php:113
+msgid "The label to use for available days field in the booking wizard."
+msgstr ""
+
+#: views/CreateProjects.php:114
+msgid "Available days field label"
+msgstr ""
+
+#: views/CreateProjects.php:115
+msgid "The label to use for the selected days field in the booking wizard."
+msgstr ""
+
+#: views/CreateProjects.php:116
+msgid "Selected days field label"
+msgstr ""
+
+#: views/CreateProjects.php:117
+msgid ""
+"The label to use for the booking time dropdown list field in the booking "
+"wizard."
+msgstr ""
+
+#: views/CreateProjects.php:118
+msgid "Booking time field label"
+msgstr ""
+
+#: views/CreateProjects.php:119
+msgid ""
+"The heading to use for the extra billable items checkbox list that allows "
+"selection of additional features whose cost add up to the total price in the "
+"booking wizard."
+msgstr ""
+
+#: views/CreateProjects.php:120
+msgid "Optional features heading"
+msgstr ""
+
+#: views/CreateProjects.php:121
+msgid "The caption to use in the booking wizards next button."
+msgstr ""
+
+#: views/CreateProjects.php:122
+msgid "Next button caption"
+msgstr ""
+
+#: views/CreateProjects.php:123
+msgid "The caption to use in the booking wizards back button."
+msgstr ""
+
+#: views/CreateProjects.php:124
+msgid "Back button caption"
+msgstr ""
+
+#: views/CreateProjects.php:125
+msgid "The caption to use for the create booking button in the booking wizard."
+msgstr ""
+
+#: views/CreateProjects.php:126
+msgid "Create booking button caption"
+msgstr ""
+
+#: views/CreateProjects.php:127
+msgid ""
+"The label to display in the \\\"From\\\" range field, when \\\"Calendar Mode"
+"\\\" is set to \\\"Range\\\"."
+msgstr ""
+
+#: views/CreateProjects.php:129
+msgid ""
+"The label to display in the \\\"To\\\" range field, when \\\"Calendar Mode\\"
+"\" is set to \\\"Range\\\"."
+msgstr ""
+
+#: views/CreateProjects.php:131
+msgid "Hide selected days"
+msgstr ""
+
+#: views/CreateProjects.php:132
+msgid ""
+"When multiple days selection is enabled, a list of the selected is displayed "
+"under the booking calendar. Use this option to toggle the display of that "
+"list."
+msgstr ""
+
+#: views/CreateProjects.php:133
+msgid "Display attendees"
+msgstr ""
+
+#: views/CreateProjects.php:134
+msgid ""
+"When enabled, people that made bookings will be shown in the booking form on "
+"a separate tab in a list, which includes attendee name, date and time if any "
+"along with booking status."
+msgstr ""
+
+#: views/CreateProjects.php:135 views/CreateProjects.php:136
+msgid "Ban list"
+msgstr ""
+
+#: views/CreateProjects.php:137
+msgid ""
+"A list of registered user emails, separated by comma. Users in this list "
+"will not be allowed to make bookings"
+msgstr ""
+
+#: views/CreateProjects.php:138 views/CreateProjects.php:139
+msgid "Default date selected"
+msgstr ""
+
+#: views/CreateProjects.php:140
+msgid ""
+"When checked, the first available date is selected in the booking calendar."
+msgstr ""
+
+#: views/CreateProjects.php:141
+msgid ""
+"Sets the label on the button in the booking. Button will show only when user "
+"is not logged in when cart system is disabled."
+msgstr ""
+
+#: views/CreateProjects.php:142
+msgid "Proceed to login label"
+msgstr ""
+
+#: views/CreateProjects.php:143
+msgid ""
+"Sets the label on the button used to make the button. This is the button "
+"that will display when you disable payments and cart system."
+msgstr ""
+
+#: views/CreateProjects.php:144
+msgid "Make booking label"
+msgstr ""
+
+#: views/CreateProjects.php:145
+msgid "Available seats label"
+msgstr ""
+
+#: views/CreateProjects.php:146
+msgid ""
+"Text used to display the number of available seats left. This option will "
+"apply when you set \\\"Available seats\\\" and check \\\"Display counter\\"
+"\", both options available in the booking period tab."
+msgstr ""
+
+#: views/CreateProjects.php:148
+msgid "Optional HTML content"
+msgstr ""
+
+#: views/CreateProjects.php:149
+msgid "Content above and below booking calendar"
+msgstr ""
+
+#: views/CreateProjects.php:150
+msgid ""
+"These settings allow you to insert HTML content above and below the booking "
+"calendar."
+msgstr ""
+
+#: views/CreateProjects.php:151
+msgid "Content above booking calendar"
+msgstr ""
+
+#: views/CreateProjects.php:152
+msgid "Content below booking calendar"
+msgstr ""
+
+#: views/CreateProjects.php:154 views/CreateProjects.php:246
+#: views/CreateProjects.php:247 views/CreateProjects.php:363
+#: views/CreateProjects.php:392 views/CreateProjects.php:406
+#: views/ManageCoupons.php:278
+msgid "Update"
+msgstr ""
+
+#: views/CreateProjects.php:156
+msgid "Image Gallery"
+msgstr ""
+
+#: views/CreateProjects.php:157 views/CreateProjects.php:409
+#: views/Uninstall.php:82 views/Uninstall.php:105
+#: views/partials/bookingdetails.php:182 views/partials/bookingdetails.php:205
+#: views/partials/bookingdetails.php:284 views/partials/bookingdetails.php:360
+msgid "Close"
+msgstr ""
+
+#: views/CreateProjects.php:158
+msgid "Delete Project"
+msgstr ""
+
+#: views/CreateProjects.php:159
+msgid ""
+"You are about to delete a project. You will lose any data associated to this "
+"project including all bookings made for this project. Are you sure ?"
+msgstr ""
+
+#: views/CreateProjects.php:176
+msgid "Make a booking"
+msgstr ""
+
+#: views/CreateProjects.php:177
+msgid "New Booking Notification Recipient(s)"
+msgstr ""
+
+#: views/CreateProjects.php:178
+msgid ""
+"Allows you to send new booking notifications to 1 or more people, who will "
+"become the intended recipient(s). Multiple recipients may be specified using "
+"a comma to separate each email address. i.e. someone@mydomain.com, "
+"another@somedomain.com, athird@somewhere.com"
+msgstr ""
+
+#: views/CreateProjects.php:179
+msgid "Create new form field"
+msgstr ""
+
+#: views/CreateProjects.php:180
+msgid ""
+"Custom form fields will be part of your booking form and allow you to "
+"collect additional information and will appear as an integral part of the "
+"booking process."
+msgstr ""
+
+#: views/CreateProjects.php:181
+msgid "Element type"
+msgstr ""
+
+#: views/CreateProjects.php:182 views/CreateProjects.php:402
+msgid "Label"
+msgstr ""
+
+#: views/CreateProjects.php:183 views/CreateProjects.php:185
+#: views/CreateProjects.php:401
+msgid "Value"
+msgstr ""
+
+#: views/CreateProjects.php:184
+msgid ""
+"The initial value of this field. Setting the same value for multiple "
+"radiobutton elements will create a radiobutton group. Note: Only characters, "
+"numbers and underscore allowed. "
+msgstr ""
+
+#: views/CreateProjects.php:186
+msgid "Terms and Conditions Url"
+msgstr ""
+
+#: views/CreateProjects.php:187
+msgid ""
+"Provide the url to your terms and conditions page. If user does not check "
+"this field, validation will fail. Combine this with properly worded label "
+"set above, eg: Do you agree with our terms and conditions ?"
+msgstr ""
+
+#: views/CreateProjects.php:188 views/CreateProjects.php:190
+msgid "Content"
+msgstr ""
+
+#: views/CreateProjects.php:189
+msgid ""
+"The content for h1 through h6 elements are headings for the sections with "
+"which they are associated or just plain text if statictext was your "
+"selection in the \\\"Element type\\\" field."
+msgstr ""
+
+#: views/CreateProjects.php:191
+msgid ""
+"Setting a class name allows you to quickly apply css styling to this field. "
+"You can also choose one of the following css classes to apply some "
+"formatting : [booki-align-left, booki-align-center, booki-align-right, booki-"
+"overline, booki-underline, booki-italic, booki-bold, booki-capitalize, booki-"
+"uppercase]"
+msgstr ""
+
+#: views/CreateProjects.php:192
+msgid "CSS class name"
+msgstr ""
+
+#: views/CreateProjects.php:193
+msgid "Column index"
+msgstr ""
+
+#: views/CreateProjects.php:194
+msgid ""
+"Enables multi-column grid. The form element will be placed at the supplied "
+"column index. Accepts values 1 - 12. Choose an existing column index from "
+"the dropdown list or create a new one. The layout will depend greatly on the "
+"screen estate available for the booking form. The smaller the space the more "
+"contrived it will appear. Hence we generally recommend single column layouts."
+msgstr ""
+
+#: views/CreateProjects.php:195
+msgid "Column Index"
+msgstr ""
+
+#: views/CreateProjects.php:197
+msgid "Row index"
+msgstr ""
+
+#: views/CreateProjects.php:198
+msgid ""
+"The form element will be placed at the supplied row index. Choose an "
+"existing row index from the dropdown list or create a new one."
+msgstr ""
+
+#: views/CreateProjects.php:199
+msgid "Row Index"
+msgstr ""
+
+#: views/CreateProjects.php:200
+msgid "Display only once"
+msgstr ""
+
+#: views/CreateProjects.php:201
+msgid ""
+"When checked, this field is shown only the first time the user is making a "
+"booking. If user makes subsequent bookings i.e. adding more days to cart, it "
+"won't show. Use it to collect one time information."
+msgstr ""
+
+#: views/CreateProjects.php:202
+msgid "Display only once ( on multiple bookings)"
+msgstr ""
+
+#: views/CreateProjects.php:203
+msgid "Add a line separator after this field"
+msgstr ""
+
+#: views/CreateProjects.php:204
+msgid "Checked by default"
+msgstr ""
+
+#: views/CreateProjects.php:205 views/CreateProjects.php:394
+msgid "Data source"
+msgstr ""
+
+#: views/CreateProjects.php:206
+msgid ""
+"The items you add to the listbox in this section will be data bound to the "
+"element. To make an item the default selection, select the item in the list "
+"and then click the \\\"Make default selection\\\" icon"
+msgstr ""
+
+#: views/CreateProjects.php:207 views/CreateProjects.php:396
+msgid "Data Item"
+msgstr ""
+
+#: views/CreateProjects.php:208
+msgid "Use this email field to auto register users"
+msgstr ""
+
+#: views/CreateProjects.php:209
+msgid "These options allow you to provide some logic to email fields."
+msgstr ""
+
+#: views/CreateProjects.php:210
+msgid "Use this as first name or last name fields"
+msgstr ""
+
+#: views/CreateProjects.php:211
+msgid ""
+"If you've disabled registration and just want to send user an email "
+"regarding their booking, the email will include this as either the customers "
+"first name or last name depending on selection below."
+msgstr ""
+
+#: views/CreateProjects.php:212
+msgid "Just a regular textbox field"
+msgstr ""
+
+#: views/CreateProjects.php:213
+msgid ""
+"Use this email field to send notifications to the user. Additionally "
+"register the user in WordPress using their email field and send them their "
+"login credentials."
+msgstr ""
+
+#: views/CreateProjects.php:214
+msgid "Use this email field to send notifications to the user"
+msgstr ""
+
+#: views/CreateProjects.php:215
+msgid "The value of this field is the first name or first name and last name"
+msgstr ""
+
+#: views/CreateProjects.php:216
+msgid "The value of this field is the last name"
+msgstr ""
+
+#: views/CreateProjects.php:217
+msgid "Validation"
+msgstr ""
+
+#: views/CreateProjects.php:218
+msgid "Basic constraints"
+msgstr ""
+
+#: views/CreateProjects.php:219
+msgid "Default selection"
+msgstr ""
+
+#: views/CreateProjects.php:220
+msgid "Default value"
+msgstr ""
+
+#: views/CreateProjects.php:221 views/CreateProjects.php:397
+msgid "Your list cannot be empty. You need to add atleast 1 item."
+msgstr ""
+
+#: views/CreateProjects.php:222 views/CreateProjects.php:399
+msgid "Add value"
+msgstr ""
+
+#: views/CreateProjects.php:223 views/CreateProjects.php:400
+msgid "Remove"
+msgstr ""
+
+#: views/CreateProjects.php:224
+msgid "Make default selection"
+msgstr ""
+
+#: views/CreateProjects.php:225
+msgid "Validation - Advanced constraints"
+msgstr ""
+
+#: views/CreateProjects.php:226
+msgid "Allowed value"
+msgstr ""
+
+#: views/CreateProjects.php:227
+msgid "Any value"
+msgstr ""
+
+#: views/CreateProjects.php:228
+msgid "Allow only digits from 0-9 (Negatives values not allowed.)"
+msgstr ""
+
+#: views/CreateProjects.php:229
+msgid "Allow only numbers"
+msgstr ""
+
+#: views/CreateProjects.php:230
+msgid "Allow only alphanumeric string"
+msgstr ""
+
+#: views/CreateProjects.php:231
+msgid ""
+"Validates that the length of a string is at least as long as the given limit."
+msgstr ""
+
+#: views/CreateProjects.php:232
+msgid "Min length"
+msgstr ""
+
+#: views/CreateProjects.php:233
+msgid ""
+"Validates that the length of a string is not larger than the given limit."
+msgstr ""
+
+#: views/CreateProjects.php:234
+msgid "Max length"
+msgstr ""
+
+#: views/CreateProjects.php:235
+msgid "Validates given number is greater than this min number"
+msgstr ""
+
+#: views/CreateProjects.php:236
+msgid "Min"
+msgstr ""
+
+#: views/CreateProjects.php:237
+msgid "Validates given number is less than this max number."
+msgstr ""
+
+#: views/CreateProjects.php:238
+msgid "Max"
+msgstr ""
+
+#: views/CreateProjects.php:239
+msgid ""
+"Validates that a value matches a specific regular expression eg: validate a "
+"color hexadecimal code: [A-Fa-f0-9]{6}."
+msgstr ""
+
+#: views/CreateProjects.php:240
+msgid "Regular expression (Regex)"
+msgstr ""
+
+#: views/CreateProjects.php:241 views/CreateProjects.php:390
+msgid "New record"
+msgstr ""
+
+#: views/CreateProjects.php:242
+msgid "Add this new form element"
+msgstr ""
+
+#: views/CreateProjects.php:243
+msgid "Match an email"
+msgstr ""
+
+#: views/CreateProjects.php:244
+msgid "Match a url"
+msgstr ""
+
+#: views/CreateProjects.php:245 views/CreateProjects.php:313
+msgid "Add"
+msgstr ""
+
+#: views/CreateProjects.php:248
+msgid "Edit or delete an existing field"
+msgstr ""
+
+#: views/CreateProjects.php:249
+msgid "An overview of all the custom form fields created for this project."
+msgstr ""
+
+#: views/CreateProjects.php:250 views/CreateProjects.php:259
+msgid "Quick preview"
+msgstr ""
+
+#: views/CreateProjects.php:251
+msgid "Whoops!"
+msgstr ""
+
+#: views/CreateProjects.php:252
+msgid "Just hold it there Mister! You have not created any form elements yet."
+msgstr ""
+
+#: views/CreateProjects.php:253
+msgid "You have unsaved changes. Save changes now ?"
+msgstr ""
+
+#: views/CreateProjects.php:254 views/GeneralSettings.php:1228
+#: views/Paypal.php:278 views/StringResources.php:524
+#: views/StringResources.php:526
+msgid "Save"
+msgstr ""
+
+#: views/CreateProjects.php:255
+msgid "Edit field"
+msgstr ""
+
+#: views/CreateProjects.php:256
+msgid "Delete field"
+msgstr ""
+
+#: views/CreateProjects.php:257
+msgid "Delete Field"
+msgstr ""
+
+#: views/CreateProjects.php:258
+msgid "You are about to delete a field. Are you sure ?"
+msgstr ""
+
+#: views/CreateProjects.php:260
+msgid "Create form fields"
+msgstr ""
+
+#: views/CreateProjects.php:261
+msgid "All form fields"
+msgstr ""
+
+#: views/CreateProjects.php:262
+msgid "Heads up"
+msgstr ""
+
+#: views/CreateProjects.php:263
+msgid ""
+"You must save your changes or discard them to set \\\"Cost for special days\\"
+"\"?"
+msgstr ""
+
+#: views/CreateProjects.php:264
+msgid "Booking date range"
+msgstr ""
+
+#: views/CreateProjects.php:265
+msgid ""
+"Specify the days you want to allow booking. Your users will be allowed to "
+"make bookings during a date period that falls within the following Start/End "
+"date.The cost is applied to each day within your selected period."
+msgstr ""
+
+#: views/CreateProjects.php:266
+msgid "Start date"
+msgstr ""
+
+#: views/CreateProjects.php:267
+msgid "End date"
+msgstr ""
+
+#: views/CreateProjects.php:268 views/CreateProjects.php:270
+msgid "Minimum notice"
+msgstr ""
+
+#: views/CreateProjects.php:269
+msgid ""
+"With minimum notice, you can prevent customers from making a booking that "
+"starts too soon. For instance, if today is the 7th of April and you set a "
+"minimum notice of 1 day, customers will only be able to book from the 8th "
+"onwards, which gives you a 1 day minimum notice. A value of 0 does not set "
+"this restriction and is the default."
+msgstr ""
+
+#: views/CreateProjects.php:271 views/CreateProjects.php:278
+msgid "day(s)"
+msgstr ""
+
+#: views/CreateProjects.php:272 views/CreateProjects.php:279
+msgid "week(s)"
+msgstr ""
+
+#: views/CreateProjects.php:273 views/CreateProjects.php:280
+msgid "hour(s)"
+msgstr ""
+
+#: views/CreateProjects.php:274 views/CreateProjects.php:281
+msgid "minute(s)"
+msgstr ""
+
+#: views/CreateProjects.php:276
+msgid ""
+"Email reminders send out notifications to your customers who made a booking "
+"before it begins, depending on the reminder period set below. A value of 0 "
+"is the default which means no reminders will be sent."
+msgstr ""
+
+#: views/CreateProjects.php:282
+msgid "Available seats"
+msgstr ""
+
+#: views/CreateProjects.php:283
+msgid ""
+"This option limits bookings to the provided value. This is useful when you "
+"have a finite number of bookings eg: limited rooms for rent or seats in a "
+"bus etc. When the number of bookings is reached, bookings will close for "
+"this project. The value you see appened next to the textbox below is the "
+"number of bookings currently made in this project. A value of zero does not "
+"limit bookings and is the default."
+msgstr ""
+
+#: views/CreateProjects.php:284 views/CreateProjects.php:289
+msgid "Seat mode"
+msgstr ""
+
+#: views/CreateProjects.php:285
+msgid ""
+"[Per booking] will deduct seats each time an item is added to cart. [Per day "
+"or timeslot] will deduct a seat for each day or timeslot selected. [Per "
+"individual timeslot] will deduct a seat on a per time slot basis i.e. 4 "
+"seats means each time slot can allow booking 4 times."
+msgstr ""
+
+#: views/CreateProjects.php:286
+msgid "Apply seat for entire booking period"
+msgstr ""
+
+#: views/CreateProjects.php:287
+msgid "Apply seat per day"
+msgstr ""
+
+#: views/CreateProjects.php:288
+msgid "Apply seat per individual timeslot"
+msgstr ""
+
+#: views/CreateProjects.php:290
+msgid "Seats"
+msgstr ""
+
+#: views/CreateProjects.php:291
+msgid "Quantity elements"
+msgstr ""
+
+#: views/CreateProjects.php:292
+msgid "Quantity elements are a finite list of choices"
+msgstr ""
+
+#: views/CreateProjects.php:293
+msgid ""
+"Quantity elements are a set of finite items you create. For each quantity, "
+"you will be able to set cost. There is no limit on quantity but setting cost "
+"per quantity item can be done for up to 101 quantity items. This will allow "
+"you to offer different pricing schemes based on quantity selected. As your "
+"users select quantity, it is reduced from the total, limiting availability "
+"to quantity remaining."
+msgstr ""
+
+#: views/CreateProjects.php:294
+msgid ""
+"You must first finish creating the booking period, before you can start "
+"creating quantity elements."
+msgstr ""
+
+#: views/CreateProjects.php:295
+msgid ""
+"You must first select a season before you can start creating quantity "
+"elements."
+msgstr ""
+
+#: views/CreateProjects.php:296
+msgid ""
+"Quantity elements applied here on special days are only applicable on "
+"calendar mode that is popup or inline. If time slots are selected, then "
+"ensure the default time selector is in use i.e. dropdown list. Multiple time "
+"slot selections do not support special day quantity elements."
+msgstr ""
+
+#: views/CreateProjects.php:297
+msgid "Element name"
+msgstr ""
+
+#: views/CreateProjects.php:299
+msgid "Element cost"
+msgstr ""
+
+#: views/CreateProjects.php:300 views/CreateProjects.php:344
+#: views/CreateProjects.php:389
+msgid "Value has to be a valid currency. Only 2 decimal places allowed."
+msgstr ""
+
+#: views/CreateProjects.php:301
+msgid "Quantity items"
+msgstr ""
+
+#: views/CreateProjects.php:302
+msgid "Display mode"
+msgstr ""
+
+#: views/CreateProjects.php:303
+msgid "Dropdown list"
+msgstr ""
+
+#: views/CreateProjects.php:304
+msgid "Textbox"
+msgstr ""
+
+#: views/CreateProjects.php:305
+msgid "Quantity element mode"
+msgstr ""
+
+#: views/CreateProjects.php:306
+msgid "Quantity elements general settings"
+msgstr ""
+
+#: views/CreateProjects.php:307
+msgid ""
+"When checked, if quantity elements are in use and these are exhausted for "
+"the day then the day will not allow booking."
+msgstr ""
+
+#: views/CreateProjects.php:308
+msgid "Availability by quantity element"
+msgstr ""
+
+#: views/CreateProjects.php:309
+msgid ""
+"When checked, cost will be displayed in quantity elements if quantity "
+"elements are in use."
+msgstr ""
+
+#: views/CreateProjects.php:310
+msgid "Include price in quantity element when using a dropdown list"
+msgstr ""
+
+#: views/CreateProjects.php:311
+msgid ""
+"If using quantity elements, then specify how you want quantity elements to "
+"work. The default Add mode will preserve quantity elements created both here "
+"and in special days, while replace will use only quantity elements in a "
+"special day when one is available."
+msgstr ""
+
+#: views/CreateProjects.php:312
+msgid "Quantity elements mode"
+msgstr ""
+
+#: views/CreateProjects.php:314
+msgid "Replace"
+msgstr ""
+
+#: views/CreateProjects.php:316
+msgid "Apply quantity for entire booking period"
+msgstr ""
+
+#: views/CreateProjects.php:317
+msgid "Apply quantity per day"
+msgstr ""
+
+#: views/CreateProjects.php:318
+msgid "Apply quantity per individual timeslot"
+msgstr ""
+
+#: views/CreateProjects.php:319
+msgid "Fixed quantity"
+msgstr ""
+
+#: views/CreateProjects.php:320
+msgid "Is required (one item selected by default or input required)"
+msgstr ""
+
+#: views/CreateProjects.php:321
+msgid "Deposits"
+msgstr ""
+
+#: views/CreateProjects.php:322
+msgid "Minimum number of days to deposit"
+msgstr ""
+
+#: views/CreateProjects.php:323
+msgid ""
+"Booking starts from the first available date. If booking after the minimum "
+"number of days set below, then the deposit is required otherwise payment in "
+"full is required. The deposit value is a percentage value calculated from "
+"the total number of days."
+msgstr ""
+
+#: views/CreateProjects.php:324
+msgid "Pay deposit if booking after"
+msgstr ""
+
+#: views/CreateProjects.php:325
+msgid "Days"
+msgstr ""
+
+#: views/CreateProjects.php:327
+msgid ""
+"The value you provide for deposit is percentage based which will be a "
+"percentage calculated from the overall cost of selected days. If the minimum "
+"days is provided, then the deposit is applicable if booking within the "
+"minimum days required above."
+msgstr ""
+
+#: views/CreateProjects.php:328
+msgid "Deposit value"
+msgstr ""
+
+#: views/CreateProjects.php:329
+msgid ""
+"Based on the available seats setting above, a counter is displayed in the "
+"page showing the number of available bookings left."
+msgstr ""
+
+#: views/CreateProjects.php:330
+msgid "Display counter"
+msgstr ""
+
+#: views/CreateProjects.php:331
+msgid "Days to exclude from range"
+msgstr ""
+
+#: views/CreateProjects.php:332
+msgid "Days to exclude from Date Range i.e. your day off, weekends etc"
+msgstr ""
+
+#: views/CreateProjects.php:333 views/CreateProjects.php:381
+msgid "Week days"
+msgstr ""
+
+#: views/CreateProjects.php:334
+msgid "Every Sunday"
+msgstr ""
+
+#: views/CreateProjects.php:335
+msgid "Every Monday"
+msgstr ""
+
+#: views/CreateProjects.php:336
+msgid "Every Tuesday"
+msgstr ""
+
+#: views/CreateProjects.php:337
+msgid "Every Wednesday"
+msgstr ""
+
+#: views/CreateProjects.php:338
+msgid "Every Thursday"
+msgstr ""
+
+#: views/CreateProjects.php:339
+msgid "Every Friday"
+msgstr ""
+
+#: views/CreateProjects.php:340
+msgid "Every Saturday"
+msgstr ""
+
+#: views/CreateProjects.php:341
+msgid "Bookable days"
+msgstr ""
+
+#: views/CreateProjects.php:343
+msgid "Applies the same cost to each day within selected period."
+msgstr ""
+
+#: views/CreateProjects.php:345
+msgid "Day vs time"
+msgstr ""
+
+#: views/CreateProjects.php:346
+msgid ""
+"Day based booking applies cost to the entire day and users will be able to "
+"book an entire day at a time."
+msgstr ""
+
+#: views/CreateProjects.php:347
+msgid ""
+"Time based booking splits a day in equal time intervals based on the HH:MM "
+"selected. Users will be able to book for a certain time interval within a "
+"day. "
+msgstr ""
+
+#: views/CreateProjects.php:348
+msgid "Day based"
+msgstr ""
+
+#: views/CreateProjects.php:349
+msgid "Time based"
+msgstr ""
+
+#: views/CreateProjects.php:350
+msgid "Time"
+msgstr ""
+
+#: views/CreateProjects.php:351
+msgid ""
+"The time selected will be split into equal intervals i.e. selecting 01:00 "
+"will give you bookable time slots split evenly starting from 12:00am - "
+"1:00am, 1:00am - 2:00am, 2:00am - 3:00am and so forth. Likewise, selecting "
+"23:60 ( a 24 hour duration) will generate only a single timeslot where the "
+"user will be making bookings by the day instead of by day and time."
+msgstr ""
+
+#: views/CreateProjects.php:352
+msgid "Hour"
+msgstr ""
+
+#: views/CreateProjects.php:353
+msgid "Minute"
+msgstr ""
+
+#: views/CreateProjects.php:354
+msgid "Enables single hour:minute format"
+msgstr ""
+
+#: views/CreateProjects.php:355
+msgid ""
+"When checked single hour:minute format will be used for the time slots. "
+"Otherwise, defaults to range format eg: hour:minute - hour:minute."
+msgstr ""
+
+#: views/CreateProjects.php:356
+msgid "Enable single hour:minute format"
+msgstr ""
+
+#: views/CreateProjects.php:357
+msgid "Split interval start time"
+msgstr ""
+
+#: views/CreateProjects.php:358
+msgid ""
+"When time slots are split, they will start the split at the following hour "
+"and minute interval selected. For example, if you selected 10:15, i.e. "
+"Hour:10 and minute:15, then the time slots split will begin at 10:15 and "
+"split time evenly for the entire day starting with 10:15. This allows you "
+"more accuracy. By default, the split will start from 00:00."
+msgstr ""
+
+#: views/CreateProjects.php:359
+msgid "Hour interval start"
+msgstr ""
+
+#: views/CreateProjects.php:360
+msgid "Minute interval start"
+msgstr ""
+
+#: views/CreateProjects.php:361
+msgid "Bookable time slots"
+msgstr ""
+
+#: views/CreateProjects.php:362
+msgid "Reset timeslot"
+msgstr ""
+
+#: views/CreateProjects.php:365
+msgid "Discard changes"
+msgstr ""
+
+#: views/CreateProjects.php:366
+msgid "Booking Period"
+msgstr ""
+
+#: views/CreateProjects.php:367
+msgid "Special days"
+msgstr ""
+
+#: views/CreateProjects.php:368
+msgid "Specify cost for special days"
+msgstr ""
+
+#: views/CreateProjects.php:369
+msgid "Set costs for special days if your costs differ by day, i.e. season."
+msgstr ""
+
+#: views/CreateProjects.php:370
+msgid "List of days within selected season"
+msgstr ""
+
+#: views/CreateProjects.php:371
+msgid "Select dates by"
+msgstr ""
+
+#: views/CreateProjects.php:372
+msgid "Create new season"
+msgstr ""
+
+#: views/CreateProjects.php:373
+msgid "Add season"
+msgstr ""
+
+#: views/CreateProjects.php:374
+msgid "Season"
+msgstr ""
+
+#: views/CreateProjects.php:375
+msgid "Season name"
+msgstr ""
+
+#: views/CreateProjects.php:376
+msgid ""
+"You have un-named seasons which are no longer supported and will be "
+"deprecated soon."
+msgstr ""
+
+#: views/CreateProjects.php:377
+msgid "Un-named"
+msgstr ""
+
+#: views/CreateProjects.php:378
+msgid "Delete un-named"
+msgstr ""
+
+#: views/CreateProjects.php:379
+msgid "Days to exclude from list of days in selected season"
+msgstr ""
+
+#: views/CreateProjects.php:380
+msgid ""
+"Days to exclude by week day from list of days above. For example, if you "
+"want only mondays to be included in the list above, then select every other "
+"weekday below. If a weekday is checked below, this means either the weekday "
+"is excluded or the weekday is not available in the selected range and will "
+"not appear in the list of days above."
+msgstr ""
+
+#: views/CreateProjects.php:382
+msgid "Delete season"
+msgstr ""
+
+#: views/CreateProjects.php:383
+msgid "Update season"
+msgstr ""
+
+#: views/CreateProjects.php:384
+msgid "No. of days for weekday found in selected date range."
+msgstr ""
+
+#: views/CreateProjects.php:385
+msgid "Specify extra billable items"
+msgstr ""
+
+#: views/CreateProjects.php:386
+msgid ""
+"Bookings can allow extra billable items. These are displayed as a list of "
+"checkboxes and are an integral part of the booking process. "
+msgstr ""
+
+#: views/CreateProjects.php:387
+msgid "Optional Item Name"
+msgstr ""
+
+#: views/CreateProjects.php:391
+msgid "Add new optional"
+msgstr ""
+
+#: views/CreateProjects.php:395
+msgid ""
+"The items you add to the listbox in this section below are the items that "
+"will show in your dropdownlist selected above. Note: don't set cost if cost "
+"does not apply. Costs of 0.00 will be ignored."
+msgstr ""
+
+#: views/CreateProjects.php:398
+msgid "New item"
+msgstr ""
+
+#: views/CreateProjects.php:403
+msgid "Select Cascading List"
+msgstr ""
+
+#: views/CreateProjects.php:407
+msgid "Delete List"
+msgstr ""
+
+#: views/CreateProjects.php:408
+msgid ""
+"You are about to delete a list. You will also lose any cascading items "
+"related to this list. Are you sure ?"
+msgstr ""
+
+#: views/CreateProjects.php:412
+msgid "Value has to be a valid currency. Only 2 decimal places allowed"
+msgstr ""
+
+#: views/CreateProjects.php:413
+msgid "Dropdown list items"
+msgstr ""
+
+#: views/CreateProjects.php:414
+msgid "Select the parent list"
+msgstr ""
+
+#: views/CreateProjects.php:415
+msgid "Cascading list relationships"
+msgstr ""
+
+#: views/CreateProjects.php:416
+msgid ""
+"Use this section only after having created atleast 2 lists. This is where "
+"you set up relationships for the cascade. Select an item in the list above. "
+"Then select a list below and click the update button. Everytime the item "
+"from the list above is selected, the items from the list below will be "
+"loaded. Confused ? Me too!"
+msgstr ""
+
+#: views/CreateProjects.php:417
+msgid "Select a relationship"
+msgstr ""
+
+#: views/CreateProjects.php:418
+msgid "Is required (user needs to make a selection)"
+msgstr ""
+
+#: views/CreateProjects.php:419
+msgid "Auto loading Cascading Drop Down Lists"
+msgstr ""
+
+#: views/CreateProjects.php:420
+msgid ""
+"Each list created will appear in your front end as a regular dropdown list. "
+"You can also create auto loading cascading lists. Cascading lists will auto "
+"populate a secondary list when an element in one list is selected. Note: For "
+"cascading lists you need to define at least 2 lists where one item in either "
+"of lists is related to the other. Confused ? Me too!"
+msgstr ""
+
+#: views/DataViewer.php:63
+msgid "View raw data stored in the database"
+msgstr ""
+
+#: views/DataViewer.php:69
+msgid "Raw data viewer"
+msgstr ""
+
+#: views/DataViewer.php:70
+msgid "Listing all records for every column in selected database table"
+msgstr ""
+
+#: views/DataViewer.php:79
+msgid "Select a data table"
+msgstr ""
+
+#: views/DataViewer.php:91
+msgid "view records"
+msgstr ""
+
+#: views/DataViewer.php:92
+msgid "Query"
+msgstr ""
+
+#: views/EmailSettings.php:40
+msgid "Email settings"
+msgstr ""
+
+#: views/EmailSettings.php:41
+msgid "The system sends out emails based on specific events."
+msgstr ""
+
+#: views/EmailSettings.php:52
+msgid ""
+"This is the master template. It will contain your emails and gives them some "
+"structure and styling. Feel free to modify it. There\n"
+"\t\t\t\t\t\t\tare only four tags that are dynamically replaced. %siteName%, "
+"%siteUrl%, %siteDescription% and %content%. Everything else can be changed."
+msgstr ""
+
+#: views/EmailSettings.php:60
+msgid "Template"
+msgstr ""
+
+#: views/EmailSettings.php:64
+msgid "Select a template"
+msgstr ""
+
+#: views/EmailSettings.php:80
+msgid "Enable this email"
+msgstr ""
+
+#: views/EmailSettings.php:87
+msgid "Sender name"
+msgstr ""
+
+#: views/EmailSettings.php:89
+msgid "The name of company or person to show as the email sending party."
+msgstr ""
+
+#: views/EmailSettings.php:96
+msgid "Sender Name"
+msgstr ""
+
+#: views/EmailSettings.php:111 views/EmailSettings.php:120
+msgid "Sender Email"
+msgstr ""
+
+#: views/EmailSettings.php:113
+msgid "The email address used as the sender when sending out emails."
+msgstr ""
+
+#: views/EmailSettings.php:136 views/EmailSettings.php:145
+msgid "Subject"
+msgstr ""
+
+#: views/EmailSettings.php:138
+msgid ""
+"If subject is not provided then the selected template name is used instead."
+msgstr ""
+
+#: views/EmailSettings.php:167
+msgid "Tokens"
+msgstr ""
+
+#: views/EmailSettings.php:168
+msgid ""
+"The following variables will be replaced by their actual values when the "
+"email is sent."
+msgstr ""
+
+#: views/EmailSettings.php:171
+msgid "Replaced with the Site Title set in Settings > General."
+msgstr ""
+
+#: views/EmailSettings.php:172
+msgid ""
+"This is replaced with Tagline set in Settings > General. Token used only in "
+"the Master Template."
+msgstr ""
+
+#: views/EmailSettings.php:173
+msgid ""
+"This is replaced with the WordPress address (URL). Token used only in the "
+"Master Template."
+msgstr ""
+
+#: views/EmailSettings.php:174
+msgid ""
+"This is replaced with the current year. Token used only in the Master "
+"Template."
+msgstr ""
+
+#: views/EmailSettings.php:175
+msgid ""
+"This is replaced with the emails content. Token used only in the Master "
+"Template."
+msgstr ""
+
+#: views/EmailSettings.php:176
+msgid "Replaced with name of customer, if one exists in customers profile"
+msgstr ""
+
+#: views/EmailSettings.php:177
+msgid "Replaced with name of admin, if one exists in the admins profile."
+msgstr ""
+
+#: views/EmailSettings.php:178
+msgid "Replaced with the order ID"
+msgstr ""
+
+#: views/EmailSettings.php:179
+msgid "Replaced with the date the order was made"
+msgstr ""
+
+#: views/EmailSettings.php:180
+msgid "Replaced with the \"order details\""
+msgstr ""
+
+#: views/EmailSettings.php:181
+msgid "Replaced with the \"order additional info\""
+msgstr ""
+
+#: views/EmailSettings.php:182
+msgid "The date or datetime of the day booked"
+msgstr ""
+
+#: views/EmailSettings.php:183
+msgid "The cost of the booked date"
+msgstr ""
+
+#: views/EmailSettings.php:184
+msgid "The optional item name"
+msgstr ""
+
+#: views/EmailSettings.php:185
+msgid "The optional item cost"
+msgstr ""
+
+#: views/EmailSettings.php:186
+msgid "The quantity element name"
+msgstr ""
+
+#: views/EmailSettings.php:187
+msgid "The quantity element cost"
+msgstr ""
+
+#: views/EmailSettings.php:188
+msgid ""
+"Replaced with a link that redirects the user to paypal for payment of the "
+"invoice. This token is valid only on an \"invoice\" template."
+msgstr ""
+
+#: views/EmailSettings.php:189
+msgid ""
+"Replaced with a link that allows the user to download an invoice in PDF "
+"format from your site."
+msgstr ""
+
+#: views/EmailSettings.php:190
+msgid ""
+"Replaced with the coupon code. This token is only valid on a \"coupon\" "
+"template."
+msgstr ""
+
+#: views/EmailSettings.php:191
+msgid ""
+"Replaced with the order url. Currently in use on the Booking Cancel Request "
+"template."
+msgstr ""
+
+#: views/EventsLogView.php:25
+msgid "Events log"
+msgstr ""
+
+#: views/EventsLogView.php:26
+msgid ""
+"An overview of all the errors thrown by services like Paypal and MailChimp "
+"and failed Emails. \n"
+"\t\t\tIf there are failures, they will show here. Messages are geeky "
+"var_dumps, feel free to ignore when in doubt."
+msgstr ""
+
+#: views/EventsLogView.php:32
+msgid ""
+"From time to time, make sure you clear events out. The data itself is of no "
+"use after reading through the log."
+msgstr ""
+
+#: views/EventsLogView.php:36
+msgid "Clear Event Log"
+msgstr ""
+
+#: views/GeneralSettings.php:59
+msgid "Sunday"
+msgstr ""
+
+#: views/GeneralSettings.php:60
+msgid "Monday"
+msgstr ""
+
+#: views/GeneralSettings.php:61
+msgid "Tuesday"
+msgstr ""
+
+#: views/GeneralSettings.php:62
+msgid "Wednesday"
+msgstr ""
+
+#: views/GeneralSettings.php:63
+msgid "Thursday"
+msgstr ""
+
+#: views/GeneralSettings.php:64
+msgid "Friday"
+msgstr ""
+
+#: views/GeneralSettings.php:65
+msgid "Saturday"
+msgstr ""
+
+#: views/GeneralSettings.php:66
+msgid "Default"
+msgstr ""
+
+#: views/GeneralSettings.php:90
+msgid ""
+"These general settings apply to the entire booking system. Careful with what "
+"you wish for!"
+msgstr ""
+
+#: views/GeneralSettings.php:100
+msgid "Timezone, Date Format Settings"
+msgstr ""
+
+#: views/GeneralSettings.php:110
+msgid ""
+"This is your timezone. User selected booking time will adapt to this whose "
+"timezone offset will be based off. Make sure this is set to your current "
+"locations timezone."
+msgstr ""
+
+#: views/GeneralSettings.php:123
+msgid "Auto detect users timezone"
+msgstr ""
+
+#: views/GeneralSettings.php:124
+msgid ""
+"When checked, the user's timezone is auto detected, otherwise the admin's "
+"timezone is used."
+msgstr ""
+
+#: views/GeneralSettings.php:133
+msgid "Automatic"
+msgstr ""
+
+#: views/GeneralSettings.php:140 views/GeneralSettings.php:150
+msgid "Enable user to change timezone"
+msgstr ""
+
+#: views/GeneralSettings.php:141
+msgid ""
+"When checked, bookings will allow user to change the time manually, via a "
+"set of unobtrusive dropdown lists."
+msgstr ""
+
+#: views/GeneralSettings.php:157 views/GeneralSettings.php:165
+msgid "Short date format"
+msgstr ""
+
+#: views/GeneralSettings.php:158
+msgid ""
+"All date/time formatting is taken from the options set in WordPress general "
+"settings. Some areas however require\n"
+"\t\t\t\t\t\t\t\t\t\ta short date setting, which is taken from the option set "
+"below."
+msgstr ""
+
+#: views/GeneralSettings.php:180 views/GeneralSettings.php:187
+msgid "Calendar's first day of week"
+msgstr ""
+
+#: views/GeneralSettings.php:181
+msgid "Sets the first day of week in the calendar used to pick bookings."
+msgstr ""
+
+#: views/GeneralSettings.php:203 views/GeneralSettings.php:213
+msgid "Show Calendar buttons panel"
+msgstr ""
+
+#: views/GeneralSettings.php:204
+msgid ""
+"When checked, calendar will include a button for todays date selection and a "
+"done button for closing the popup."
+msgstr ""
+
+#: views/GeneralSettings.php:220 views/GeneralSettings.php:230
+msgid "Display booked time slots"
+msgstr ""
+
+#: views/GeneralSettings.php:221
+msgid ""
+"When checked, time slots that are booked are displayed in their respective "
+"dropdown list or listbox as disabled. This can be quite distracting to  your "
+"customers. Unchecking this option allows you to exclude booked time slots "
+"from the list."
+msgstr ""
+
+#: views/GeneralSettings.php:241
+msgid "Cart Settings"
+msgstr ""
+
+#: views/GeneralSettings.php:250 views/GeneralSettings.php:259
+msgid "Use Cart System"
+msgstr ""
+
+#: views/GeneralSettings.php:251
+msgid ""
+"When unchecked, bookings made are immediately booked or paid for without "
+"adding to cart or going to a bookings summary page."
+msgstr ""
+
+#: views/GeneralSettings.php:266 views/GeneralSettings.php:275
+msgid "Cart items with heading"
+msgstr ""
+
+#: views/GeneralSettings.php:267
+msgid ""
+"When checked, items in the cart are organized by project name used as the "
+"heading."
+msgstr ""
+
+#: views/GeneralSettings.php:283
+msgid ""
+"When unchecked, clicking add to cart button will add the item and take you "
+"to the cart page instead of reloading the booking page for more bookings. "
+"When checked, make sure to add a Cart widget to your pages. This will allow "
+"your users to view activity while adding items to cart."
+msgstr ""
+
+#: views/GeneralSettings.php:298 views/GeneralSettings.php:307
+msgid "Show price in booking"
+msgstr ""
+
+#: views/GeneralSettings.php:299
+msgid ""
+"When unchecked, price is removed from booking. Affects only the booking page "
+"and not the cart."
+msgstr ""
+
+#: views/GeneralSettings.php:314 views/GeneralSettings.php:324
+msgid "Enable payment during checkout"
+msgstr ""
+
+#: views/GeneralSettings.php:315
+msgid ""
+"When checked, customers will be asked to make payments during checkout i.e. "
+"immediately redirected to paypal. \n"
+"\t\t\t\t\t\t\t\t\t\tThis setting only forces payments during the checkout "
+"process."
+msgstr ""
+
+#: views/GeneralSettings.php:331 views/GeneralSettings.php:340
+msgid "Enable booking with and without payment"
+msgstr ""
+
+#: views/GeneralSettings.php:332
+msgid ""
+"When checked, a \"Book now\" button is enabled alongside the pay now with "
+"PayPal button. This setting takes effect only when the above \"Enable "
+"payment during checkout\" setting is checked as well."
+msgstr ""
+
+#: views/GeneralSettings.php:347 views/GeneralSettings.php:356
+msgid "Enable book more button"
+msgstr ""
+
+#: views/GeneralSettings.php:348
+msgid ""
+"When checked, a \"Book more\" button is displayed in the cart page. This "
+"allows the customer to go back from where they came and book again."
+msgstr ""
+
+#: views/GeneralSettings.php:363 views/GeneralSettings.php:371
+msgid "Login page url"
+msgstr ""
+
+#: views/GeneralSettings.php:364
+msgid ""
+"In order for users to make bookings, login is a requirement. By default, the "
+"login page in WordPress is used. \n"
+"\t\t\t\t\t\t\t\t\t\tBy changing the Url below, you can redirect it to your "
+"custom login page instead."
+msgstr ""
+
+#: views/GeneralSettings.php:405 views/GeneralSettings.php:413
+msgid "Continue booking url"
+msgstr ""
+
+#: views/GeneralSettings.php:406
+msgid ""
+"This is where the continue button on the booking cart page takes you when "
+"clicked. \n"
+"\t\t\t\t\t\t\t\t\t\tBy default it goes to the referring page that lead you "
+"to the booking cart if one exists otherwise reloads the current page."
+msgstr ""
+
+#: views/GeneralSettings.php:427 views/GeneralSettings.php:436
+msgid "Membership required to make booking"
+msgstr ""
+
+#: views/GeneralSettings.php:428
+msgid ""
+"When un-checked, users can make bookings and payment without registration."
+msgstr ""
+
+#: views/GeneralSettings.php:443 views/GeneralSettings.php:452
+msgid "Auto register user after payment"
+msgstr ""
+
+#: views/GeneralSettings.php:444
+msgid ""
+"When checked, customer is registered in your WordPress instance using their "
+"Email, Firstname and Lastname returned from PayPal after payment. This is "
+"useful if you have membership disabled and want paying users to be "
+"registered. Registered users get order history page."
+msgstr ""
+
+#: views/GeneralSettings.php:463
+msgid "Notifications, Confirmations and Invoices"
+msgstr ""
+
+#: views/GeneralSettings.php:472
+msgid "Auto confirm payment"
+msgstr ""
+
+#: views/GeneralSettings.php:473
+msgid ""
+"Auto confirms payment after buyer is redirected from Paypal. If you leave "
+"this unchecked, buyer needs to \n"
+"\t\t\t\t\t\t\t\t\t\tre-confirm purchase after being redirected from Paypal i."
+"e. just like on ebay, a two-step process."
+msgstr ""
+
+#: views/GeneralSettings.php:482
+msgid "Auto confirm order after returning from Paypal"
+msgstr ""
+
+#: views/GeneralSettings.php:489
+msgid "Confirm booking automatically after checkout"
+msgstr ""
+
+#: views/GeneralSettings.php:490
+msgid ""
+"When checked, bookings made are approved and confirmed automatically after "
+"checkout or if payment is enabled,\n"
+"\t\t\t\t\t\t\t\t\t\tafter payment is received."
+msgstr ""
+
+#: views/GeneralSettings.php:499
+msgid ""
+"Approve and send confirmation email automatically after checkout or payment"
+msgstr ""
+
+#: views/GeneralSettings.php:506
+msgid "Confirm booking automatically after bill settlement"
+msgstr ""
+
+#: views/GeneralSettings.php:507
+msgid ""
+"This is useful if you want to handle booking invoices manually. When "
+"checked, bookings are approved and confirmed automatically after bill on "
+"invoice is settled through PayPal link found on invoice. When using this "
+"option, make sure [Approve and send confirmation email automatically after "
+"checkout or payment] is unchecked as they are mutually exclusive."
+msgstr ""
+
+#: views/GeneralSettings.php:515
+msgid "Approve and send confirmation email automatically after bill settlement"
+msgstr ""
+
+#: views/GeneralSettings.php:522 views/GeneralSettings.php:533
+msgid "Send invoice automatically during checkout"
+msgstr ""
+
+#: views/GeneralSettings.php:523
+msgid ""
+"When checked, an invoice is sent automatically after checkout. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tSpecifically when \"Enable payments during checkout"
+"\" option is unchecked \n"
+"\t\t\t\t\t\t\t\t\t\t\t\twhich implicitly means payment is to be made through "
+"an invoice."
+msgstr ""
+
+#: views/GeneralSettings.php:540 views/GeneralSettings.php:549
+msgid "Send refund notification email automatically after a refund"
+msgstr ""
+
+#: views/GeneralSettings.php:541
+msgid ""
+"When checked, a notification email is sent automatically after a successful "
+"refund."
+msgstr ""
+
+#: views/GeneralSettings.php:556 views/GeneralSettings.php:565
+msgid ""
+"Send booking is cancelled notification email automatically after a booking "
+"is cancelled"
+msgstr ""
+
+#: views/GeneralSettings.php:557
+msgid ""
+"When checked, a notification email is sent automatically after booking has "
+"been cancelled by admin."
+msgstr ""
+
+#: views/GeneralSettings.php:572
+msgid "Notify admin via email everytime a new booking is made"
+msgstr ""
+
+#: views/GeneralSettings.php:573
+msgid ""
+"When checked, a notification email is sent to admin everytime a new booking "
+"is received."
+msgstr ""
+
+#: views/GeneralSettings.php:581
+msgid "Notify admin via email everytime a new booking is made."
+msgstr ""
+
+#: views/GeneralSettings.php:588 views/GeneralSettings.php:597
+msgid "Notify user that their booking was received"
+msgstr ""
+
+#: views/GeneralSettings.php:589
+msgid ""
+"When checked, a notification email is sent to the user to confirm that their "
+"booking was successfully received."
+msgstr ""
+
+#: views/GeneralSettings.php:604 views/GeneralSettings.php:612
+msgid "Default owner of booking"
+msgstr ""
+
+#: views/GeneralSettings.php:605
+msgid ""
+"Every booking made needs an owner. When a booking is made anonymously, "
+"without user login, i.e. \n"
+"\t\t\t\t\t\t\t\t\t\twhen membership is not required, the default owner of "
+"this booking will be the user you set here until you later associate a user "
+"to the booking."
+msgstr ""
+
+#: views/GeneralSettings.php:625
+msgid "Email notifications TO:"
+msgstr ""
+
+#: views/GeneralSettings.php:626
+msgid ""
+"If you have email notifications turned on, one is sent to the following "
+"address when a new booking is made."
+msgstr ""
+
+#: views/GeneralSettings.php:632
+msgid "Email Notifications TO:"
+msgstr ""
+
+#: views/GeneralSettings.php:650
+msgid "Discounts"
+msgstr ""
+
+#: views/GeneralSettings.php:659 views/GeneralSettings.php:668
+msgid "Enable coupons in shopping cart"
+msgstr ""
+
+#: views/GeneralSettings.php:660
+msgid ""
+"When checked, a textbox for collecting coupon codes is available in the "
+"shopping cart."
+msgstr ""
+
+#: views/GeneralSettings.php:677
+msgid ""
+"A value in percentage to deduct from the actual cost set above. The discount "
+"is triggered based on the booking minimum property and applies to the total "
+"cost. The more one books, the less one pays! Keep in mind that discounts are "
+"disabled if a deposit is applicable."
+msgstr ""
+
+#: views/GeneralSettings.php:706 views/GeneralSettings.php:714
+msgid "Booking minimum for discount"
+msgstr ""
+
+#: views/GeneralSettings.php:708
+msgid ""
+"The discount value will be applied based on the booking minimum. A value of "
+"0 will apply the discount without minimum booking restrictions. "
+msgstr ""
+
+#: views/GeneralSettings.php:733
+msgid "Theme Options"
+msgstr ""
+
+#: views/GeneralSettings.php:742 views/GeneralSettings.php:750
+msgid "Theme"
+msgstr ""
+
+#: views/GeneralSettings.php:743
+msgid ""
+"Custom themes you upload into your current themes/booki directory will show "
+"up here. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tMake sure you read the docs on how to achieve this."
+msgstr ""
+
+#: views/GeneralSettings.php:763 views/GeneralSettings.php:770
+msgid "Calendar theme"
+msgstr ""
+
+#: views/GeneralSettings.php:764
+msgid ""
+"The theme used in the calendar controls during booking. For custom themes, "
+"refer to the documentation."
+msgstr ""
+
+#: views/GeneralSettings.php:783
+msgid "Calendar Style Settings"
+msgstr ""
+
+#: views/GeneralSettings.php:784
+msgid ""
+"Flat - Removes default images set by jQuery-ui calendar and squares out the "
+"calendar removing border radius."
+msgstr ""
+
+#: views/GeneralSettings.php:785
+msgid ""
+"Borderless - Removes default borders set by jQuery-ui calendar and adds a "
+"single 2px black border under the header."
+msgstr ""
+
+#: views/GeneralSettings.php:793
+msgid "Flat"
+msgstr ""
+
+#: views/GeneralSettings.php:799
+msgid "Borderless"
+msgstr ""
+
+#: views/GeneralSettings.php:806 views/GeneralSettings.php:815
+msgid "Highlight Selected Optional Item"
+msgstr ""
+
+#: views/GeneralSettings.php:807
+msgid "Highlights the selected optional item."
+msgstr ""
+
+#: views/GeneralSettings.php:826
+msgid "Maintenance Options"
+msgstr ""
+
+#: views/GeneralSettings.php:835
+msgid "Clear Event log"
+msgstr ""
+
+#: views/GeneralSettings.php:836
+msgid ""
+"The event log contains unexpected error messages due to Email, MailChimp or "
+"PayPal failures. \n"
+"\t\t\t\t\t\t\t\t\t\tThere is no reason to keep these messages for longer "
+"than necessary. By default, it will be cleared every 7 days. \n"
+"\t\t\t\t\t\t\t\t\t\tA value of zero has no effect and event log messages "
+"will never be cleared automatically."
+msgstr ""
+
+#: views/GeneralSettings.php:844
+msgid "Clear Event log after"
+msgstr ""
+
+#: views/GeneralSettings.php:858
+msgid "Reference bootstrap style sheet"
+msgstr ""
+
+#: views/GeneralSettings.php:859
+msgid ""
+"When checked, bootstrap stylesheet is referenced. The booking system depend "
+"on this, so unless your theme already references bootstrap, do not "
+"uncheck. \n"
+"\t\t\t\t\t\t\t\t\t\tNote that the bootstrap version used is namespaced and "
+"will not conflict with your theme in use."
+msgstr ""
+
+#: views/GeneralSettings.php:868
+msgid "Reference bootstrap style sheet include"
+msgstr ""
+
+#: views/GeneralSettings.php:875 views/GeneralSettings.php:885
+msgid "Reference bootstrap JavaScript include"
+msgstr ""
+
+#: views/GeneralSettings.php:876
+msgid ""
+"When checked, bootstrap JavaScript include is referenced. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tThe booking system depends on this, so unless your "
+"theme already references bootstrap, do not uncheck."
+msgstr ""
+
+#: views/GeneralSettings.php:892 views/GeneralSettings.php:902
+msgid "Reference Parsley JavaScript include"
+msgstr ""
+
+#: views/GeneralSettings.php:893
+msgid ""
+"When checked, Parsley JavaScript include is referenced. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tThe booking system depends on this, so unless your "
+"theme or a secondary plugin already references parsley, do not uncheck."
+msgstr ""
+
+#: views/GeneralSettings.php:909 views/GeneralSettings.php:919
+msgid "Reference Moment JavaScript include"
+msgstr ""
+
+#: views/GeneralSettings.php:910
+msgid ""
+"When checked, Moment JavaScript include is referenced. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tThe booking system depends on this, so unless your "
+"theme or a secondary plugin already references moment, do not uncheck."
+msgstr ""
+
+#: views/GeneralSettings.php:926 views/GeneralSettings.php:935
+msgid "Enable responsive features"
+msgstr ""
+
+#: views/GeneralSettings.php:927
+msgid ""
+"Turn on responsive CSS by including the proper viewport meta tag "
+"(width=device-width, initial-scale=1.0) within the head element of your "
+"page. If your theme is already adding this or you do not want this setting, "
+"you may deactivate it from here."
+msgstr ""
+
+#: views/GeneralSettings.php:942
+msgid "Debug mode"
+msgstr ""
+
+#: views/GeneralSettings.php:943
+msgid ""
+"When checked, Booki will reference debug versions of it's client side "
+"JavaScript/CSS files. Debug versions of the client side scripts are larger, "
+"so do not do this unless you have good reason for doing so."
+msgstr ""
+
+#: views/GeneralSettings.php:951
+msgid "Debug Mode"
+msgstr ""
+
+#: views/GeneralSettings.php:958
+msgid "Custom pages"
+msgstr ""
+
+#: views/GeneralSettings.php:959
+msgid ""
+"Booki generates a bunch of custom pages it needs for various operations. If "
+"you accidentally deleted some of these pages or all, you can use the button "
+"below to regenerate all pages all over again."
+msgstr ""
+
+#: views/GeneralSettings.php:965
+msgid "Regenerate custom pages"
+msgstr ""
+
+#: views/GeneralSettings.php:975
+msgid "Misc Options"
+msgstr ""
+
+#: views/GeneralSettings.php:985
+msgid ""
+"Tax is displayed in the shopping cart during checkout. \n"
+"\t\t\t\t\t\t\t\t\t\tWhen setting tax below, it has to be a percentage value, "
+"which is the value deducted from the total amount."
+msgstr ""
+
+#: views/GeneralSettings.php:1011
+msgid "Time Selection"
+msgstr ""
+
+#: views/GeneralSettings.php:1012
+msgid ""
+"How do you want users to select time in your bookings. The default is a "
+"Dropdown List. While the Dropdown list \n"
+"\t\t\t\t\t\t\t\t\t\tis compact and takes up only a single line, it does not "
+"allow multiple selections. Hence your users need to \n"
+"\t\t\t\t\t\t\t\t\t\tselect one slot at a time and add it to the cart. \n"
+"\t\t\t\t\t\t\t\t\t\tIf you want multiple selections in a single click, use "
+"the ListBox."
+msgstr ""
+
+#: views/GeneralSettings.php:1021
+msgid "Time selection"
+msgstr ""
+
+#: views/GeneralSettings.php:1025
+msgid "Dropdown List"
+msgstr ""
+
+#: views/GeneralSettings.php:1026
+msgid "ListBox"
+msgstr ""
+
+#: views/GeneralSettings.php:1033 views/GeneralSettings.php:1043
+msgid "Enable editors"
+msgstr ""
+
+#: views/GeneralSettings.php:1034
+msgid ""
+"When checked, users in the \"Editors\" role are allowed to view and manage "
+"bookings. In particular, they are allowed to \n"
+"\t\t\t\t\t\t\t\t\t\tconfirm bookings by sending out confirmation emails, "
+"refund notifications for refunded bookings and send out an invoice for "
+"unpaid bookings."
+msgstr ""
+
+#: views/GeneralSettings.php:1050 views/GeneralSettings.php:1059
+msgid "Delete booking upon payment cancellation"
+msgstr ""
+
+#: views/GeneralSettings.php:1051
+msgid ""
+"When checked, if user cancels during a PayPal checkout (on PayPals page they "
+"hit cancel instead of proceeding with payment), the order will also be "
+"deleted for good. If unchecked, user can access booking from their history "
+"page and attempt payment again."
+msgstr ""
+
+#: views/GeneralSettings.php:1066 views/GeneralSettings.php:1076
+msgid "Allow user to cancel their booking"
+msgstr ""
+
+#: views/GeneralSettings.php:1067
+msgid ""
+"When checked, allows a user to cancel their booking, if booking has not been "
+"confirmed yet.\n"
+"\t\t\t\t\t\t\t\t\t\tThis can be done directly by the user from their "
+"bookings history page."
+msgstr ""
+
+#: views/GeneralSettings.php:1083 views/GeneralSettings.php:1091
+msgid "MailChimp API Key"
+msgstr ""
+
+#: views/GeneralSettings.php:1084
+msgid ""
+"Your mailchimp API Key. This will allow you to upload your users to \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tmailchimp along with freshly generated coupon codes "
+"per user."
+msgstr ""
+
+#: views/GeneralSettings.php:1104 views/GeneralSettings.php:1113
+msgid "Order expiry"
+msgstr ""
+
+#: views/GeneralSettings.php:1105
+msgid ""
+"The number of days an unpaid order is still \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tvalid and payable after booking is made. Unpaid "
+"orders will be automatically purged out of the system after expiry. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tA value of zero (the default) has no effect and "
+"unpaid orders will not expire."
+msgstr ""
+
+#: views/GeneralSettings.php:1127 views/GeneralSettings.php:1136
+msgid "Use history page in dashboard"
+msgstr ""
+
+#: views/GeneralSettings.php:1128
+msgid ""
+"When checked, the system will link to a history page in the back-end ( via "
+"dashboard). Unchecking this option will force the system to link to the "
+"history page in the front end. Be sure to include it in your menu if un-"
+"checked."
+msgstr ""
+
+#: views/GeneralSettings.php:1143
+msgid "Display once form on multiple projects"
+msgstr ""
+
+#: views/GeneralSettings.php:1144
+msgid ""
+"When checked, if all your form fields have the \"Display once\" option "
+"checked, the setting will propagate to all projects that have display once."
+msgstr ""
+
+#: views/GeneralSettings.php:1152
+msgid "Display once form"
+msgstr ""
+
+#: views/GeneralSettings.php:1159 views/GeneralSettings.php:1168
+msgid "Disable back button cache"
+msgstr ""
+
+#: views/GeneralSettings.php:1160
+msgid ""
+"When checked, the browser will be forced to revalidate with the server in "
+"case a previous response of the page due to a postback is available. Note: "
+"This setting when checked will affect all pages on your site, so do this "
+"with caution and if you truly want to use the no-cache header directive. It "
+"is unchecked by default."
+msgstr ""
+
+#: views/GeneralSettings.php:1175
+msgid "Currency code and symbol"
+msgstr ""
+
+#: views/GeneralSettings.php:1177
+msgid ""
+"If your not using PayPal and would rather provide the currency and currency "
+"symbol manually, set it below. Make sure \"Enable Payments\" is unchecked. "
+"When payments are enabled, currency and currency symbol are taken from the "
+"PayPal settings page."
+msgstr ""
+
+#: views/GeneralSettings.php:1184
+msgid "Currency Code"
+msgstr ""
+
+#: views/GeneralSettings.php:1196
+msgid "Currency Symbol"
+msgstr ""
+
+#: views/GeneralSettings.php:1209 views/GeneralSettings.php:1218
+msgid "Enable PayPal for billing, if disabled in cart"
+msgstr ""
+
+#: views/GeneralSettings.php:1210
+msgid ""
+"When checked, PayPal will be enabled for billing even if you have disabled "
+"PayPal in the cart settings. This allows you to still collect payment via "
+"PayPal by manually issuing an invoice."
+msgstr ""
+
+#: views/InvoiceSettings.php:35
+msgid "Invoice settings"
+msgstr ""
+
+#: views/InvoiceSettings.php:36
+msgid ""
+"The system sends out invoices based on specific events. The invoice will "
+"also include the information below if provided."
+msgstr ""
+
+#: views/InvoiceSettings.php:45
+msgid ""
+"These settings go in the PDF document which is hyper linked to in the "
+"invoice email. To change the message in the email, use the email settings "
+"page by selecting \"invoice\" in the template list."
+msgstr ""
+
+#: views/InvoiceSettings.php:52
+msgid "Company name"
+msgstr ""
+
+#: views/InvoiceSettings.php:60
+msgid "Your company name or your full name"
+msgstr ""
+
+#: views/InvoiceSettings.php:66
+msgid "Company number"
+msgstr ""
+
+#: views/InvoiceSettings.php:71
+msgid "Your company number eg: VAT number"
+msgstr ""
+
+#: views/InvoiceSettings.php:93
+msgid "Telephone"
+msgstr ""
+
+#: views/InvoiceSettings.php:121
+msgid "Additional note"
+msgstr ""
+
+#: views/InvoiceSettings.php:125
+msgid "Optional blob of text to appear under the invoice statement."
+msgstr ""
+
+#: views/ManageBookings.php:143
+msgid "Manage Bookings by order"
+msgstr ""
+
+#: views/ManageBookings.php:144
+msgid ""
+"Confirm bookings, manually create new bookings, send out invoices and issue "
+"refunds"
+msgstr ""
+
+#: views/ManageBookings.php:152
+msgid "No errors were encountered while sending the email."
+msgstr ""
+
+#: views/ManageBookings.php:154
+msgid ""
+"An error was encountered while sending the email. \n"
+"\t\t\t\t\t\t\t\tEnsure that sending emails works with your wordpress \n"
+"\t\t\t\t\t\t\t\tinstance and then try again."
+msgstr ""
+
+#: views/ManageBookings.php:165
+msgid "Cancel a booking"
+msgstr ""
+
+#: views/ManageBookings.php:166
+msgid ""
+"You are about to cancel a booking. Note that a cancelled booking can be "
+"found and undone from the [Cancel History] page."
+msgstr ""
+
+#: views/ManageBookings.php:175
+msgid "Proceed with cancel"
+msgstr ""
+
+#: views/ManageBookings.php:188 views/ManageRoles.php:102
+msgid ""
+"A new user was created and the login credentials were emailed to the user."
+msgstr ""
+
+#: views/ManageBookings.php:189 views/ManageGCal.php:123
+#: views/ManageRoles.php:103
+msgid "User was found in system."
+msgstr ""
+
+#: views/ManageBookings.php:190
+msgid ""
+"Booking is now owned by the user and is also available in the users history "
+"page."
+msgstr ""
+
+#: views/ManageBookings.php:200
+msgid "Assign ownership of booking to user"
+msgstr ""
+
+#: views/ManageBookings.php:202
+msgid ""
+"Provide an email address. If user is not already registered, \n"
+"\t\t\t\t\t\tthen a new user is created and login credentials are emailed to "
+"the provided email address. The booking will be owned by this user where "
+"they can view the booking in their history page."
+msgstr ""
+
+#: views/ManageBookings.php:211 views/ManageGCal.php:181
+#: views/ManageRoles.php:127 views/partials/userinfo.php:2
+msgid "User email"
+msgstr ""
+
+#: views/ManageBookings.php:230
+msgid "Add user"
+msgstr ""
+
+#: views/ManageBookings.php:250
+msgid "Create new bookings manually and email them to a new or existing user"
+msgstr ""
+
+#: views/ManageBookings.php:267
+msgid "Listing of all orders made"
+msgstr ""
+
+#: views/ManageBookings.php:305
+msgid "No filter"
+msgstr ""
+
+#: views/ManageBookings.php:313
+msgid "Pending (Unpaid)"
+msgstr ""
+
+#: views/ManageBookings.php:350 views/ViewBookings.php:135
+msgid "Export all bookings"
+msgstr ""
+
+#: views/ManageBookings.php:358 views/ManageCoupons.php:316
+#: views/ViewBookings.php:144
+msgid "Export the current page only"
+msgstr ""
+
+#: views/ManageBookings.php:365 views/ManageRoles.php:198
+#: views/ViewBookings.php:152
+msgid "All projects"
+msgstr ""
+
+#: views/ManageBookings.php:378 views/ManageCoupons.php:325
+#: views/ManageUsers.php:371 views/ViewBookings.php:165
+msgid "Export to CSV file"
+msgstr ""
+
+#: views/ManageBookings.php:379 views/ManageCoupons.php:326
+#: views/ViewBookings.php:166
+msgid "CSV"
+msgstr ""
+
+#: views/ManageBookings.php:459 views/ManageCoupons.php:361
+#: views/ManageUsers.php:461 views/ViewBookings.php:248
+msgid "User not found. Try again."
+msgstr ""
+
+#: views/ManageBookings.php:460 views/ManageCoupons.php:362
+#: views/ManageUsers.php:462 views/ViewBookings.php:249
+msgid "User found. Username is"
+msgstr ""
+
+#: views/ManageCoupons.php:67
+msgid "Manage coupons"
+msgstr ""
+
+#: views/ManageCoupons.php:68
+msgid ""
+"Create coupons and email them to a user. \n"
+"\t\t\tIf you prefer to mass create and email coupons then get on the \"users"
+"\" page. \n"
+"\t\t\tYou'll be able to export users and coupons to MailChimp."
+msgstr ""
+
+#: views/ManageCoupons.php:76
+msgid "Email coupon"
+msgstr ""
+
+#: views/ManageCoupons.php:90
+msgid "Send Email"
+msgstr ""
+
+#: views/ManageCoupons.php:104
+msgid ""
+"There was a problem creating the coupon. Most likely the coupon code already "
+"exists, try a unique combination."
+msgstr ""
+
+#: views/ManageCoupons.php:108
+msgid "The coupon was created successfully."
+msgstr ""
+
+#: views/ManageCoupons.php:112
+msgid "The coupon was updated successfully."
+msgstr ""
+
+#: views/ManageCoupons.php:116
+msgid "The coupon was deleted successfully."
+msgstr ""
+
+#: views/ManageCoupons.php:120
+msgid "The coupon was emailed successfully."
+msgstr ""
+
+#: views/ManageCoupons.php:126
+msgid "Create new coupons"
+msgstr ""
+
+#: views/ManageCoupons.php:127
+msgid ""
+"Create new coupons or edit an existing coupon. If a project is selected then "
+"the coupon will apply for that project only. Note: If user adds bookings "
+"from more than one project in cart, the coupon wont apply."
+msgstr ""
+
+#: views/ManageCoupons.php:141 views/ManageUsers.php:291
+msgid "Coupon applies to any project"
+msgstr ""
+
+#: views/ManageCoupons.php:150 views/ManageUsers.php:300
+msgid "Expiration Date"
+msgstr ""
+
+#: views/ManageCoupons.php:169
+msgid "Attention: Coupon code"
+msgstr ""
+
+#: views/ManageCoupons.php:170
+msgid ""
+"By default a GUID is generated for the coupon code. This has the benefit of "
+"being unique and you will avoid clashing with other coupons this way. If you "
+"decide to change the coupon code, eg: 10%OFF or something similar this is "
+"also possible, but to reuse the same name you will need to delete the older "
+"one."
+msgstr ""
+
+#: views/ManageCoupons.php:175
+msgid "Coupon code"
+msgstr ""
+
+#: views/ManageCoupons.php:189
+msgid "Attention: Coupon type"
+msgstr ""
+
+#: views/ManageCoupons.php:190
+msgid ""
+"A regular coupon is limited to one use only. After that one use i.e. after "
+"the user checks out using this code, it is no longer valid. A super coupon "
+"on the other hand will allow multiple uses until the expiration date."
+msgstr ""
+
+#: views/ManageCoupons.php:195
+msgid "Coupon Type"
+msgstr ""
+
+#: views/ManageCoupons.php:228 views/ManageUsers.php:347
+msgid "Order Minimum"
+msgstr ""
+
+#: views/ManageCoupons.php:243
+msgid "Attention: No. of coupons"
+msgstr ""
+
+#: views/ManageCoupons.php:244
+msgid ""
+"If you set a value greater than the default value of 1, coupon type will "
+"default to regular and the coupon code will be autogenerated internally."
+msgstr ""
+
+#: views/ManageCoupons.php:250
+msgid "No. of coupons"
+msgstr ""
+
+#: views/ManageCoupons.php:300
+msgid "List of all coupons"
+msgstr ""
+
+#: views/ManageCoupons.php:308
+msgid "Export all coupons"
+msgstr ""
+
+#: views/ManageGCal.php:86
+msgid ""
+"Associate a user with a Google calendar profile. Bookings made will be "
+"synced to this profile on projects the user is designated as a service "
+"provider."
+msgstr ""
+
+#: views/ManageGCal.php:92 views/ManageRoles.php:69
+msgid "Delete role"
+msgstr ""
+
+#: views/ManageGCal.php:93
+msgid ""
+"You are about to delete a Google calendar profile. Are you sure you want to "
+"do this ?"
+msgstr ""
+
+#: views/ManageGCal.php:114
+msgid "Google calendar profile"
+msgstr ""
+
+#: views/ManageGCal.php:122
+msgid ""
+"A new user was created and the login credentials were emailed to the user. "
+"Ensure that this user is a service provider on projects you want synced to "
+"their Google calendar profile."
+msgstr ""
+
+#: views/ManageGCal.php:124
+msgid ""
+"If this user is a service provider on projects in Booki, then those projects "
+"will be synced with their Google calendar associated to this profile."
+msgstr ""
+
+#: views/ManageGCal.php:134
+msgid "Result of the sync process:"
+msgstr ""
+
+#: views/ManageGCal.php:143
+msgid "Result of calendars and events deleted:"
+msgstr ""
+
+#: views/ManageGCal.php:153
+msgid "The gcal profile was updated successfully."
+msgstr ""
+
+#: views/ManageGCal.php:154 views/ManageRoles.php:116
+msgid "Update was not successful. Try again."
+msgstr ""
+
+#: views/ManageGCal.php:198
+msgid "Application name"
+msgstr ""
+
+#: views/ManageGCal.php:244
+msgid "Update profile"
+msgstr ""
+
+#: views/ManageGCal.php:248
+msgid "Create profile"
+msgstr ""
+
+#: views/ManageGCal.php:285
+msgid "Google calendar profiles"
+msgstr ""
+
+#: views/ManageGCal.php:286
+msgid "Listing of all Google calendar profiles registered in system"
+msgstr ""
+
+#: views/ManageRoles.php:62
+msgid "Manage service providers by project"
+msgstr ""
+
+#: views/ManageRoles.php:63
+msgid ""
+"Users provided access to a project will make them service providers in which "
+"they will be allowed to manage the project i.e. create/edit/delete and the "
+"over all management of bookings made on projects they belong to. Remember, "
+"with great power comes great responsibility. Careful grasshopper!"
+msgstr ""
+
+#: views/ManageRoles.php:70
+msgid ""
+"You are about to delete a users privileges. Are you sure you want to take "
+"away their powers ?"
+msgstr ""
+
+#: views/ManageRoles.php:91
+msgid "Designate user as a service provider"
+msgstr ""
+
+#: views/ManageRoles.php:93
+msgid ""
+"Provide an email address. If user is not already registered, \n"
+"\t\t\t\t\t\t\tthen a new user is created and login credentials are emailed "
+"to the provided email address. The user will be allowed privileges on their "
+"respective project only."
+msgstr ""
+
+#: views/ManageRoles.php:104
+msgid ""
+"This user has now been assigned privileges on a project where they can "
+"perform some duties as project owner."
+msgstr ""
+
+#: views/ManageRoles.php:115
+msgid "The service provider was updated successfully."
+msgstr ""
+
+#: views/ManageRoles.php:164
+msgid "Update role"
+msgstr ""
+
+#: views/ManageRoles.php:168
+msgid "Create service provider"
+msgstr ""
+
+#: views/ManageRoles.php:181
+msgid ""
+"You  have not created a project yet. A project needs to be created before "
+"user privileges are set on it."
+msgstr ""
+
+#: views/ManageRoles.php:190
+msgid "Listing of users that are registered as service providers"
+msgstr ""
+
+#: views/ManageRoles.php:212
+msgid "Filter by project"
+msgstr ""
+
+#: views/ManageUsers.php:91
+msgid "List and manage users that made bookings."
+msgstr ""
+
+#: views/ManageUsers.php:97
+msgid "MailChimp export status"
+msgstr ""
+
+#: views/ManageUsers.php:98
+msgid "Emails added"
+msgstr ""
+
+#: views/ManageUsers.php:107
+msgid "Error count"
+msgstr ""
+
+#: views/ManageUsers.php:112
+msgid "Error msg"
+msgstr ""
+
+#: views/ManageUsers.php:125
+msgid "Delete booking made by user"
+msgstr ""
+
+#: views/ManageUsers.php:126
+msgid ""
+"You are about to delete all bookings made by this user. This is permanent. "
+"Are you sure ?"
+msgstr ""
+
+#: views/ManageUsers.php:152
+msgid "User bookings"
+msgstr ""
+
+#: views/ManageUsers.php:153
+msgid "List of bookings made by selected user."
+msgstr ""
+
+#: views/ManageUsers.php:165
+msgid "List of all users that made bookings."
+msgstr ""
+
+#: views/ManageUsers.php:214
+msgid "Export"
+msgstr ""
+
+#: views/ManageUsers.php:215
+msgid "Export users/coupons to CSV or MailChimp"
+msgstr ""
+
+#: views/ManageUsers.php:226
+msgid "Export all users"
+msgstr ""
+
+#: views/ManageUsers.php:234
+msgid "Export the current records only"
+msgstr ""
+
+#: views/ManageUsers.php:245 views/ManageUsers.php:254
+msgid "Mailing list"
+msgstr ""
+
+#: views/ManageUsers.php:247
+msgid ""
+"Select a MailChimp mailing list to export users, along with coupons you "
+"generate using the options below."
+msgstr ""
+
+#: views/ManageUsers.php:265
+msgid "Select mailing list"
+msgstr ""
+
+#: views/ManageUsers.php:274
+msgid "Note"
+msgstr ""
+
+#: views/ManageUsers.php:274
+msgid ""
+"To export to MailChimp you need to first load the mailing list and select a "
+"list. \n"
+"\t\t\t\t\t\t\t\t\tAlready done ? Then double check your MailChimp API Key "
+"(General settings)."
+msgstr ""
+
+#: views/ManageUsers.php:322
+msgid ""
+"A discount value greater than 0 must be provided, otherwise no coupons are "
+"generated."
+msgstr ""
+
+#: views/ManageUsers.php:372
+msgid "To CSV"
+msgstr ""
+
+#: views/ManageUsers.php:378
+msgid "Export to MailChimp"
+msgstr ""
+
+#: views/ManageUsers.php:379
+msgid "To MailChimp"
+msgstr ""
+
+#: views/ManageUsers.php:385
+msgid "Loads/reloads MailChimp mailing list in the dropdownlist above"
+msgstr ""
+
+#: views/ManageUsers.php:386
+msgid "Load mailing lists"
+msgstr ""
+
+#: views/ManageUsers.php:393
+msgid "Coupon settings"
+msgstr ""
+
+#: views/ManageUsers.php:394
+msgid "Advanced"
+msgstr ""
+
+#: views/Paypal.php:43
+msgid "PayPal"
+msgstr ""
+
+#: views/Paypal.php:44
+msgid "Accept Payments Online with PayPal."
+msgstr ""
+
+#: views/Paypal.php:65
+msgid "Password"
+msgstr ""
+
+#: views/Paypal.php:71
+msgid "Signature"
+msgstr ""
+
+#: views/Paypal.php:79
+msgid "Enable Guest checkout"
+msgstr ""
+
+#: views/Paypal.php:80
+msgid ""
+"When checked, buyer does not need to create a PayPal account to check out. "
+"This is referred to as PayPal Account Optional (ensure it is turned on in "
+"your merchant account). It will allow your customer to pay with credit card."
+msgstr ""
+
+#: views/Paypal.php:89
+msgid "Enable guest checkout"
+msgstr ""
+
+#: views/Paypal.php:96
+msgid "Sandbox"
+msgstr ""
+
+#: views/Paypal.php:97
+msgid ""
+"The PayPal Sandbox is a self-contained, virtual testing environment that "
+"mimics the \n"
+"\t\t\t\t\t\t\t\t\t\tlive PayPal production environment. When checked, all "
+"Paypal checkout requests will be \n"
+"\t\t\t\t\t\t\t\t\t\tmade towards the Paypal Sandbox test environment: "
+"https://www.sandbox.paypal.com."
+msgstr ""
+
+#: views/Paypal.php:108
+msgid "Use paypal sandbox"
+msgstr ""
+
+#: views/Paypal.php:128 views/partials/refundtransaction.php:105
+msgid "Currency"
+msgstr ""
+
+#: views/Paypal.php:143 views/Paypal.php:151
+msgid "Item category"
+msgstr ""
+
+#: views/Paypal.php:144
+msgid ""
+"For item category, \"Physical\" is the default and works as is and does not "
+"require anything special on your part.\n"
+"\t\t\t\t\t\t\t\t\t\tUnless you have a subscription with PayPal to take "
+"advantage of \"Digital\" goods, do not change."
+msgstr ""
+
+#: views/Paypal.php:174
+msgid "Business name"
+msgstr ""
+
+#: views/Paypal.php:178
+msgid "Display in PayPal hosted checkout pages"
+msgstr ""
+
+#: views/Paypal.php:186
+msgid "Custom page style"
+msgstr ""
+
+#: views/Paypal.php:190
+msgid "As configured in Merchant's account profile"
+msgstr ""
+
+#: views/Paypal.php:199
+msgid "Header image URL"
+msgstr ""
+
+#: views/Paypal.php:203
+msgid "The image will appear at the top left of the payment page"
+msgstr ""
+
+#: views/Paypal.php:212
+msgid "Header border"
+msgstr ""
+
+#: views/Paypal.php:216
+msgid "Color is applied around header"
+msgstr ""
+
+#: views/Paypal.php:225
+msgid "Header background"
+msgstr ""
+
+#: views/Paypal.php:229
+msgid "Color is applied in the header"
+msgstr ""
+
+#: views/Paypal.php:238
+msgid "Page background"
+msgstr ""
+
+#: views/Paypal.php:242
+msgid "Color is applied on payment page"
+msgstr ""
+
+#: views/Paypal.php:251
+msgid "Minicart border"
+msgstr ""
+
+#: views/Paypal.php:255
+msgid "Color applied in the Mini Cart on 1X flow"
+msgstr ""
+
+#: views/Paypal.php:264
+msgid "Logo image URL"
+msgstr ""
+
+#: views/Paypal.php:268
+msgid "Image to appear above the mini-cart"
+msgstr ""
+
+#: views/Paypal.php:280
+msgid "Reset to sandbox"
+msgstr ""
+
+#: views/Reminders.php:48
+msgid ""
+"Email reminders sent out by system. Reminders are enabled individually on "
+"each project."
+msgstr ""
+
+#: views/Reminders.php:54
+msgid "Email reminders in queue:"
+msgstr ""
+
+#: views/Reminders.php:61
+msgid "Removes all scheduled reminders."
+msgstr ""
+
+#: views/Reminders.php:64
+msgid "Clear queue"
+msgstr ""
+
+#: views/Reminders.php:67
+msgid "Deletes all the history of reminders sent out by system."
+msgstr ""
+
+#: views/Reminders.php:70
+msgid "Clear history"
+msgstr ""
+
+#: views/StringResources.php:28
+msgid "Edit string resources in the booking form"
+msgstr ""
+
+#: views/StringResources.php:29
+msgid ""
+"These string resources are used throughout Booki in the front-end. Customize "
+"each field as desired here or through WPML."
+msgstr ""
+
+#: views/StringResources.php:527
+msgid "Reset"
+msgstr ""
+
+#: views/Uninstall.php:11
+msgid "All data has been cleared. Your spick and span, sparky!"
+msgstr ""
+
+#: views/Uninstall.php:31
+msgid ""
+"You are about to wipe out all data associated with booki. Attention: You "
+"cannot undo this operation."
+msgstr ""
+
+#: views/Uninstall.php:43
+msgid ""
+"Clear all data but leave the booki tables intact. \n"
+"\t\t\t\t\tYou still lose everything, careful. Brings the plugin back to a "
+"fresh install."
+msgstr ""
+
+#: views/Uninstall.php:51 views/Uninstall.php:88
+msgid "Clear"
+msgstr ""
+
+#: views/Uninstall.php:59
+msgid ""
+"Just delete everything, tables included. You lose everything. Plugin will be "
+"deactivated."
+msgstr ""
+
+#: views/Uninstall.php:76
+msgid "Clear all data in Booki"
+msgstr ""
+
+#: views/Uninstall.php:79
+msgid ""
+"Are you sure you want to clear all data in the Booki database tables ? You "
+"won't be able to undo this operation."
+msgstr ""
+
+#: views/Uninstall.php:99
+msgid "Delete Booki"
+msgstr ""
+
+#: views/Uninstall.php:102
+msgid ""
+"Are you sure you want to delete Booki ? You won't be able to undo this "
+"operation."
+msgstr ""
+
+#: views/ViewBookings.php:79
+msgid "View all bookings made"
+msgstr ""
+
+#: views/ViewBookings.php:85
+msgid "Listing of all bookings made"
+msgstr ""
+
+#: views/ViewBookings.php:119
+msgid "Search by registered users email"
+msgstr ""
+
+#: views/ViewBookings.php:172
+#, php-format
+msgid "There are currently no bookings found for selected period %s - %s."
+msgstr ""
+
+#: views/partials/bookedformelements.php:4
+msgid "This is additional information collected during the booking process."
+msgstr ""
+
+#: views/partials/bookingdetails.php:43
+msgid "Booking details"
+msgstr ""
+
+#: views/partials/bookingdetails.php:66
+msgid "in user selected timezone"
+msgstr ""
+
+#: views/partials/bookingdetails.php:71
+msgid "in admin timezone"
+msgstr ""
+
+#: views/partials/bookingdetails.php:175
+msgid "Cancel booked date confirmation"
+msgstr ""
+
+#: views/partials/bookingdetails.php:178
+msgid ""
+"When you cancel a booked date, the cost is deducted from the order total and "
+"the booked date is removed from the system. If there is only one date then "
+"the order is deleted."
+msgstr ""
+
+#: views/partials/bookingdetails.php:179
+msgid "Booki does not keep records of cancelled bookings. Proceed ?"
+msgstr ""
+
+#: views/partials/bookingdetails.php:198
+msgid "Cancel quantity element item confirmation"
+msgstr ""
+
+#: views/partials/bookingdetails.php:201
+msgid ""
+"When you cancel a quantity element item, the cost is deducted from the order "
+"total and the quantity element item is removed from the system."
+msgstr ""
+
+#: views/partials/bookingdetails.php:202
+msgid ""
+"Booki does not keep records of cancelled quantity element item selections. "
+"Proceed ?"
+msgstr ""
+
+#: views/partials/bookingdetails.php:277
+msgid "Cancel optional item confirmation"
+msgstr ""
+
+#: views/partials/bookingdetails.php:280
+msgid ""
+"When you cancel an optional item, the cost is deducted from the order total "
+"and the optional item is removed from the system."
+msgstr ""
+
+#: views/partials/bookingdetails.php:281
+msgid ""
+"Booki does not keep records of cancelled optional item selections. Proceed ?"
+msgstr ""
+
+#: views/partials/bookingdetails.php:353
+msgid "Cancel cascading item confirmation"
+msgstr ""
+
+#: views/partials/bookingdetails.php:356
+msgid ""
+"When you cancel an cascading item, the cost is deducted from the order total "
+"and the cascading item is removed from the system."
+msgstr ""
+
+#: views/partials/bookingdetails.php:357
+msgid ""
+"Booki does not keep records of cancelled cascading item selections. Proceed ?"
+msgstr ""
+
+#: views/partials/refundtransaction.php:36
+#: views/partials/refundtransaction.php:42
+msgid "Refund Status"
+msgstr ""
+
+#: views/partials/refundtransaction.php:37
+msgid "Short Message:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:38
+msgid "Long Message:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:43
+msgid "Net refund amount:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:45
+msgid "Fee refund amount:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:47
+msgid "Gross refund amount:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:49
+msgid "Total refunded amount:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:52
+msgid "Refund status:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:54
+msgid "Pending reason:"
+msgstr ""
+
+#: views/partials/refundtransaction.php:63
+msgid "Refund transaction"
+msgstr ""
+
+#: views/partials/refundtransaction.php:64
+msgid ""
+"You can send refunds within 60 days of receiving a payment. Alternatively, "
+"you\n"
+"\t\t\tcan issue a refund directly through paypal, by going to the \n"
+"\t\t\tTransaction Details page for your transaction and clicking \"Issue a "
+"refund\"."
+msgstr ""
+
+#: views/partials/refundtransaction.php:87
+msgid "Type of refund being made."
+msgstr ""
+
+#: views/partials/refundtransaction.php:88
+msgid "Refund Type"
+msgstr ""
+
+#: views/partials/refundtransaction.php:95
+msgid ""
+"Amount to be refunded (If RefundType is full, do not set the amount). For "
+"Decimal point use a dot [.] and Thousands sep use a comma [,]"
+msgstr ""
+
+#: views/partials/refundtransaction.php:96
+msgid "Refund amount"
+msgstr ""
+
+#: views/partials/refundtransaction.php:103
+msgid ""
+"Currency must be the same currency type used to make the \n"
+"\t\t\t\t\t\t\tpayment that is being refunded."
+msgstr ""
+
+#: views/partials/refundtransaction.php:112
+msgid "By default this will use any available funding source"
+msgstr ""
+
+#: views/partials/refundtransaction.php:113
+msgid "Refund source"
+msgstr ""
+
+#: views/partials/refundtransaction.php:118
+msgid "Use any available funding source"
+msgstr ""
+
+#: views/partials/refundtransaction.php:119
+msgid "Use the preferred funding source, as configured in the profile"
+msgstr ""
+
+#: views/partials/refundtransaction.php:120
+msgid "Use the balance as the funding source"
+msgstr ""
+
+#: views/partials/refundtransaction.php:121
+msgid "Use the eCheck funding source"
+msgstr ""
+
+#: views/partials/refundtransaction.php:127
+msgid "Memo"
+msgstr ""
+
+#: views/partials/refundtransaction.php:138
+msgid "Issue refund"
+msgstr ""
+
+#: views/partials/restrictedmodewarning.php:4
+msgid "Plugin is in Restricted Mode"
+msgstr ""
+
+#: views/partials/restrictedmodewarning.php:5
+msgid ""
+"The plugin is in restricted mode and some operations or features, depending "
+"on the page may have been disabled. \n"
+"\t\t\tPurchase product for fully working version."
+msgstr ""
+
+#: views/partials/timezonecontrol.php:7 views/templates/timezonecontrol.php:10
+msgid "Current Timezone"
+msgstr ""
+
+#: views/partials/timezonecontrol.php:12 views/templates/timezonecontrol.php:15
+msgid "Change Timezone"
+msgstr ""
+
+#: views/partials/timezonecontrol.php:20 views/templates/timezonecontrol.php:23
+msgid "Timezone!"
+msgstr ""
+
+#: views/partials/timezonecontrol.php:20 views/templates/timezonecontrol.php:23
+msgid "Booking time will adapt to the timezone you select below."
+msgstr ""
+
+#: views/partials/timezonecontrol.php:26 views/templates/timezonecontrol.php:29
+msgid "Region"
+msgstr ""
+
+#: views/partials/timezonecontrol.php:30 views/templates/timezonecontrol.php:33
+msgid "Select a region"
+msgstr ""
+
+#: views/partials/timezonecontrol.php:47 views/templates/timezonecontrol.php:50
+msgid ""
+"We will try to guess your timezone. For accuracy, we recommend you to "
+"manually select your timezone."
+msgstr ""
+
+#: views/partials/timezonecontrol.php:48 views/templates/timezonecontrol.php:51
+msgid "Guess my timezone"
+msgstr ""
+
+#: views/partials/userinfoinline.php:4
+msgid "Find booking by email"
+msgstr ""
+
+#: views/partials/userinfoinline.php:10
+msgid "userid@thedomain.com"
+msgstr ""
+
+#: views/partials/userinfoinline.php:20
+msgid "Find"
+msgstr ""
+
+#: views/templates/bookingform.php:19
+msgid "You cannot make a booking with your current user account."
+msgstr ""
+
+#: views/templates/bookingform.php:136
+#, php-format
+msgid "A minimum of %d time slot selections required."
+msgstr ""
+
+#: views/templates/bookingform.php:147
+msgid "You can only book {0} days at a time. Excess days not applied."
+msgstr ""
+
+#: views/templates/bookingform.php:149
+msgid "You can only book {0} slots at a time. Excess time not applied."
+msgstr ""
+
+#: views/templates/bookingform.php:172
+msgid "Please select a date."
+msgstr ""
+
+#: views/templates/bookingform.php:191 views/templates/bookingform.php:222
+msgid "Exhausted!"
+msgstr ""
+
+#: views/templates/bookingform.php:191
+msgid "All available slots have been added to cart. Check out ?"
+msgstr ""
+
+#: views/templates/bookingform.php:198
+msgid "Booked!"
+msgstr ""
+
+#: views/templates/bookingform.php:198
+msgid "All available slots have been booked for this day."
+msgstr ""
+
+#: views/templates/bookingform.php:222
+msgid "All Available days have been added to cart. Checkout ?"
+msgstr ""
+
+#: views/templates/checkoutgrid.php:364
+msgid "Toggle Dropdown"
+msgstr ""
+
+#: views/templates/master.php:14
+msgid "Humanics test, skip it"
+msgstr ""
+
+#: views/templates/master.php:24
+msgid "Fully booked!"
+msgstr ""
+
+#: views/templates/master.php:24
+msgid "All bookings exhausted."
+msgstr ""
+
+#: views/templates/minicart.php:27
+msgid "Oops!"
+msgstr ""
+
+#: views/templates/minicart.php:27
+msgid "Some items got booked by someone else before you could checkout."
+msgstr ""
+
+#: views/templates/paypalcancelpaymentpartial.php:7
+msgid ""
+"Payment cancelled successfully! The order has been deleted. Thanks for "
+"trying to book with us. Hope to see you again."
+msgstr ""
+
+#: views/templates/paypalcancelpaymentpartial.php:9
+msgid ""
+"Payment cancelled. The order is still available in your order history. If "
+"you change your mind, you can make payment directly through your order "
+"history page. Thank you for booking with us."
+msgstr ""
+
+#: views/templates/paypalcancelpaymentpartial.php:11
+msgid "Payment cancelled. Thank you for booking with us."
+msgstr ""
+
+#: views/templates/paypalcancelpaymentpartial.php:16
+msgid "Go to your order"
+msgstr ""
+
+#: views/templates/paypalcancelpaymentpartial.php:17
+msgid "history page"
+msgstr ""
+
+#: views/user/historypartial.php:4
+msgid "History"
+msgstr ""
+
+#: views/user/historypartial.php:5
+msgid "You need to login to view your history."
+msgstr ""
+
+#: views/user/historypartial.php:14
+msgid "User history"
+msgstr ""
+
+#: views/user/historypartial.php:15
+#, php-format
+msgid "Past bookings made by current user. YOU (%s)"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:8 views/user/statspartial.php:9
+msgid "A brief overview of your bookings."
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:8
+msgid "A brief overview of bookings approved by you."
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:15
+msgid "Payments made"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:19
+msgid "Payments pending"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:22 views/user/statspartial.php:24
+msgid "Purchasers are made, not born. --Henry Ford"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:28
+#: views/user/singlecolstatspartial.php:105 views/user/statspartial.php:30
+#: views/user/statspartial.php:110
+msgid "Refunds"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:31 views/user/statspartial.php:33
+msgid "Don't dwell on negativity."
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:42
+msgid "Total bookings"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:46
+msgid "Total amount earned"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:49 views/user/statspartial.php:51
+msgid ""
+"I do not love the money. What I love is the making of it. --Philip Armour"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:55 views/user/statspartial.php:57
+msgid "total discounts given"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:70 views/user/statspartial.php:72
+msgid "Listing of all bookings approved by you"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:84 views/user/statspartial.php:88
+msgid "Bookings made in the last 3 months"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:84
+msgid "Bookings you approved in the last 3 months"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:94 views/user/statspartial.php:98
+msgid "Sales"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:95 views/user/statspartial.php:99
+msgid "Sales in the last 3 months"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:95
+msgid "Sales of bookings you approved in the last 3 months"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:106 views/user/statspartial.php:111
+msgid "Refunds in the last 3 months"
+msgstr ""
+
+#: views/user/singlecolstatspartial.php:106
+msgid "Refunded bookings you approved in the last 3 months"
+msgstr ""
+
+#: views/user/statspartial.php:17
+msgid "payments made"
+msgstr ""
+
+#: views/user/statspartial.php:21
+msgid "payments pending"
+msgstr ""
+
+#: views/user/statspartial.php:44
+msgid "total days booked"
+msgstr ""
+
+#: views/user/statspartial.php:48
+msgid "total amount earned"
+msgstr ""
