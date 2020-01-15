@@ -1,0 +1,27 @@
+Version 1.1.1
+    Added:
+	   - Compatibility with WP 5.3.2
+       - TRX Updater plugin
+
+    Changed:
+	   - Replace default contact forms with Contact Form 7
+	   - Update demo data
+
+    Fixed:
+       - Improve compatibility with PHP 7.3
+       - Update plugins to their latest versions
+       - Improve theme styles
+
+Version 1.1.0
+	Added:
+	   - Homepage 4
+	Fixed:
+	   - Content reassembled without using Layouts
+	   - Update plugins to their latest versions
+	   - minor CSS fixes
+	Changed:
+	   - Update demo data
+    Removed: 
+	   - Support page, Video Tutorials page		   
+Version 1.0
+	Release

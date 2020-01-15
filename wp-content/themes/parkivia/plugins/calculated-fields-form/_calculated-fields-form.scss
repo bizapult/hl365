@@ -1,0 +1,208 @@
+/* Calculated Fields Form styles
+----------------------------------------------------------------- */
+
+form[id^="cp_calculatedfieldsf"] input[type="radio"],
+form[id^="cp_calculatedfieldsf"] input[type="checkbox"] {
+	display:inline;
+}
+.cff-dropdown-field .dfield select {
+	visibility: visible;
+}
+.cp_cff_professional #fbuilder .select_container {
+	width: 50%;
+}
+.cp_cff_professional #fbuilder .select_container select {
+	width: 99% !important;
+}
+.cff-date-field .dformat{
+	display: none;
+}
+.caldera-grid {
+	input {
+		width: 100%;
+	}
+	.row {
+		margin-right: 0;
+		& + .row {
+			margin-top: 2em;
+		}
+		input[type="submit"] {
+			transition: all ease 0.3s;
+		}
+	}
+	.cf-toggle-group-buttons {
+		.btn {
+			padding: 1em 2em;
+			border: 1px dashed;
+			display: inline-block;
+			transition: all ease 0.3s;
+			border-radius: 6px 0 0 6px;
+			font-weight:700;
+			cursor: pointer;
+			& + .btn {
+				border-radius: 0 6px 6px 0;
+			}
+			&:first-child {
+				border-right:0;
+			}
+			&:last-child {
+				border-left:0;
+			}
+		}
+	}
+}
+.parsley-required {
+	margin-top: 0.75em;
+	display: inline-block;
+}
+.cfdatepicker table tr td, .cfdatepicker table tr th {
+	background: transparent;
+}
+.caldera-grid .control-label,
+.cff-date-field > label {
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	display: inline-block;
+}
+#fbuilder .fields + .fields {
+	margin-top: 1.25em;
+}
+.caldera-grid .radio,
+.cff-radiobutton-field {
+	font-weight:700;
+	line-height: 2.1;
+}
+.cff-radiobutton-field .one_column + .one_column {
+	margin-top: 0.45em;
+}
+body .caldera-grid input[type="radio"],
+body #fbuilder input[type="radio"] {
+	display: none;
+}
+.booki ul.booki-optionals-list.list-group li {
+	z-index: 0;
+}
+.booki input[type="radio"] + span {
+	position: relative;
+	padding-left: 1.95em;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -1.4em;
+	z-index: -1;
+}
+.caldera-grid input[type="radio"] + span,
+#fbuilder input[type="radio"] + span {
+	position: relative;
+	padding-left: 1.95em;
+	display: inline-block;
+	vertical-align: middle;
+}
+.booki input[type="radio"] + span:before,
+.caldera-grid  input[type="radio"] + span:before,
+#fbuilder input[type="radio"] + span:before {
+	content: ' ';
+	font-family: Fontello, serif;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	border: 1px dashed;
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+	position: absolute;
+	z-index: 1;
+	font-weight: 400;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.booki input[type="radio"]:checked + span:before,
+.caldera-grid  input[type="radio"]:checked + span:before,
+#fbuilder input[type="radio"]:checked + span:before {
+	content: '\e986';
+}
+.cff-calculated-field label {
+	font-weight:700;
+	display: inline-block;
+	margin-bottom: 0.5em;
+}
+body #fbuilder .section_break {
+	border-top-style: solid;
+	margin-bottom: 0.7em;
+}
+body #fbuilder .section_breaks {
+	font-size: 14px;
+	margin-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+.dateclass > div input,
+#fbuilder input[type="text"].hasDatepicker {
+	padding-right: 5em;
+	z-index: 2;
+	display: block;
+	position: relative;
+	background: transparent !important;
+}
+.booki .input-group,
+.dateclass > div,
+.cff-date-field .dfield {
+	position: relative;
+	z-index: 1;
+}
+.booki .input-group:before,
+.dateclass > div:before,
+.cff-date-field .dfield:before {
+	content: '\e987';
+	font-family: Fontello, serif;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	position: absolute;
+	z-index: 1;
+	font-weight: 400;
+	top: 50%;
+	right: 10px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.booki-remove-horizontal-padding,
+.booki-totals-label,
+.booki ul li, .booki ol li, .booki ul.nav.nav-tabs li, .booki ul.booki-optionals-list.list-group li {
+	font-weight: 700;
+}
+.booki button.booki-cart-checkout,
+.booki .btn[name="booki_remove_optional"],
+.booki .btn[name="booki_remove_order"] {
+	padding: 0 !important;
+	background: transparent !important;
+}
+.table.booki-table-borderless>tbody>tr>td.booki-cart-item-header {
+	background: transparent !important;
+}
+.booki .form-control:focus {
+	box-shadow: none !important;
+}
+.booki textarea.form-control {
+	padding-top: 1em;
+}
+.booki .btn:focus, .booki .btn:active:focus, .booki .btn.active:focus, .booki .btn.focus, .booki .btn:active.focus, .booki .btn.active.focus {
+	outline: none !important;
+}
+.booki button.booki-cart-checkout {
+	margin-top: 0.6em;
+}
